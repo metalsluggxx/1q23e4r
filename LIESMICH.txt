@@ -1,0 +1,772 @@
+Cursive Forever 1.13.0 — 01.11.2026
+Optionales Menümotiv: Jaina benötigt Cursive Character Pack 1.0.0 oder neuer. Den Ordner CursiveCharacterPack neben CursiveForever nach Interface/AddOns entpacken, beide Addons aktivieren und WoW nach der Erstinstallation vollständig neu starten. Grimoire und Minimal benötigen kein Zusatzpaket.
+
+Standard hält bis zu acht Hauptsymbole in einer Reihe. Bereits angezeigte, weiter angewählte Ziele bleiben beim Kampfbeginn sichtbar.
+
+Cursive Forever 1.13.0
+=====================
+
+Für World of Warcraft: Forever.
+Aktueller Clientstand: 1.60.1 (70450), Release x64, Builddatum 15.10.2026.
+Am 17.10.2026 gemeldet. Frühere Belege behalten ihre ursprüngliche Clientangabe.
+Erstellt von Leandarh Valinor · Try Again Forever.
+English: README.txt
+Versionshistorie: VERSIONSHISTORIE.txt / CHANGELOG.txt
+
+Bisheriges Release 1.9.1: UNTERSTÜTZENDE FLÜCHE ALS HAUPTEFFEKTE
+
+Fluch der Schwäche, Sprachen, Tollkühnheit, Erschöpfung und Elemente sind unter Zauber & Hinweise nun in allen vier Ansichten als Haupt auswählbar. Danke an thermanshs für den Vorschlag.
+
+Gewählte Flüche folgen der normalen Haupteffektreihenfolge und zählen zu den acht Hauptplätzen. Sie erscheinen nicht zusätzlich am kleinen Fluchplatz oder im Zusatzraster.
+
+Mit festen Plätzen und aktiviertem Klickzaubern lassen sich erlernte Hauptflüche wie andere Hauptzauber auf Fokus oder Ziel wirken. Bei ausgeschalteten Zusatzsymbolen bleiben sie sichtbar.
+
+Bestehende Auswahlen bleiben erhalten. Der Raid-Fluchwächter wird weiterhin unabhängig eingestellt.
+
+/cf dots öffnen, Anzeigen für den gewünschten Spielmodus aktivieren und Haupt beim Fluch anhaken. Mit den Pfeilen seine Position wählen. Nach der Installation die Benutzeroberfläche neu laden.
+
+RELEASE 1.9.0: ZAUBERN PER KLICK AUF FOKUS UND ZIEL
+
+Erlernte Hauptzauber per Linksklick auf Fokus oder aktuelles Ziel wirken. Funktioniert mit festen Plätzen in Standard, Matrix, DoT-Balken und Lebensbalken, auch in leeren Feldern. Danke an Myia für den Vorschlag.
+
+Der Fokus steht ganz oben: Standard und Lebensbalken zeigen Fokus unter dem Porträt; Matrix und DoT-Balken verwenden ein größeres F am Porträt. Darunter folgt das aktuelle Ziel mit der vertrauten Zielmarkierung. Weitere Gegner dienen der Anzeige.
+
+Sind Fokus und Ziel derselbe Gegner, bleiben beide Bedienzeilen sichtbar – wie bei den normalen Ziel- und Fokusfenstern. Die Vorschläge zählen diesen Gegner nur einmal.
+
+Klickzaubern ist für feste Anordnungen voreingeschaltet und unter Zauber & Hinweise abschaltbar. Nach Ablauf behält die gewohnte Anzeige.
+
+Bei aktivem Klickzaubern Anordnung, Größe, Position und Fenstersichtbarkeit außerhalb des Kampfes ändern. Das Fenster folgt weiterhin seiner gespeicherten Sichtbarkeitseinstellung für außerhalb des Kampfes.
+
+Fokuszauber berücksichtigen den erkannten Empfänger in Vorschlägen und Kampfauswertung. Mehrdeutige Zuordnungen bleiben unbestätigt; ein abgeschlossener Zauber ist weiterhin kein Trefferbeweis.
+
+Unter /cf options > Anzeige für Standard oder Lebensbalken Feste Reihenfolge
+wählen. Matrix und DoT-Balken verwenden bereits feste Plätze. Unter Zauber &
+Hinweise die Hauptzauber auswählen und Zaubern per Klick eingeschaltet lassen.
+Haupteffekt in der gekennzeichneten Fokuszeile oder Zielzeile linksklicken. Weitere
+Gegnerzeilen zaubern nicht und wählen kein Ziel aus. Das Ziel wechselst du
+selbst, beispielsweise mit Tab; die Zielzeile folgt deiner Auswahl.
+Reichweite, Sichtlinie, Bewegung und Abklingzeiten gelten weiterhin.
+/cfclick off außerhalb des Kampfes schaltet auf die gewohnte Anzeige zurück.
+Nach der Installation die Oberfläche neu laden. Die integrierten Zeilen
+ersetzen das separate Fenster aus dem experimentellen Klicktest.
+
+RELEASE 1.8.0: ÜBERSICHTLICHERE OPTIONEN UND GEMEINSAME ZAUBERLISTE
+
+Die Optionen haben vier klar benannte Seiten: Anzeige, Zauber & Hinweise, Auswertung sowie Allgemeines & Hilfe. Grimoire und schlichtes Optionsfenster verwenden dieselbe Ordnung.
+
+Anzeige bündelt Ansicht, Sortierung, Größe, Transparenz, Fensterkopf, Rahmen, Zusatzsymbole und Sichtbarkeit außerhalb des Kampfes.
+
+Zauber & Hinweise vereint Zauberfilter, Hauptplätze und Priorität in einer Liste. Filter für Solo, Dungeon und Raid bleiben getrennt. /cf dots und /cf filters öffnen diese Seite direkt.
+
+Execute bietet vier direkte Auswahlknöpfe: Automatisch, Unter 35 %, Unter 20 % und Aus. Vorschläge, Raidmarker-Priorität und Fluchwächter stehen daneben.
+
+Vorhandene Einstellungen bleiben erhalten. Nicht verfügbare Optionen sind mit Erklärung ausgegraut; längere Seiten lassen sich scrollen.
+
+Fluch der Elemente ist jetzt in der Zauberliste anwählbar, nutzt den gemeinsamen Platz für unterstützende Flüche und lässt sich im Fluchwächter zuweisen.
+
+Dämonisches Brandmal und Schattenverwundbarkeit (Verbesserter Schattenblitz) sind als Haupt- oder Zusatzeffekte wählbar. Danke an thermanshs für diese Zauberwünsche.
+
+Öffne /cf options. Sortierung und Gestaltung der Gegnerübersicht stehen unter Anzeige; /cf dots öffnet Zauber & Hinweise für Filter, Hauptplätze und Priorität. Sprache, Minikarte und Optionsdesign findest du unter Allgemeines & Hilfe. Nach der Installation /reload ausführen.
+
+FRÜHERE RELEASEHINWEISE (Menünamen beziehen sich auf die damaligen Versionen)
+
+RELEASE 1.7.8: KOMPAKTE STANDARDZEILEN UND ANZEIGEOPTIONEN
+
+Standard mit Nach Ablauf reserviert beim Einschalten der Zusatzsymbole keine leere zweite große Symbolreihe mehr. Bis zu vier gewählte Haupteffekte passen in eine Reihe; fünf bis acht behalten ihre zweite Reihe.
+
+Haupteffekte bleiben nach Restlaufzeit sortiert. Bis zu vier Zusatzeffekte nutzen den kompakten Bereich aus zwei Zweierreihen, wie bei fester Reihenfolge.
+
+Der Wechsel zwischen fester Reihenfolge und Ablaufsortierung wartet bei Bedarf, damit laufende Timer bei Gegnern außerhalb der Sicht erhalten bleiben.
+
+Die Deckkraft der Ablaufanimation lässt sich unter DoT-Anordnung von 0–100% einstellen (Vorgabe: 58%). Änderungen außerhalb des Kampfes mit Übernehmen und UI neu laden aktivieren. Danke an Myia für den Vorschlag.
+
+Neue Checkbox Fenster ausblenden, wenn nicht im Kampf unter Kampfanzeige, standardmäßig aus. Die Übersicht erscheint beim Kampfbeginn wieder, sofern sie nicht manuell ausgeblendet wurde; Optionen bleiben erreichbar.
+
+Nach der Installation /reload ausführen.
+
+RELEASE 1.7.6: RAHMENLOSE ANZEIGE UND DEUTLICHERE ZIELMARKIERUNG
+
+Der eingeblendete Fensterkopf bleibt vollständig deckend, wenn die Transparenz der Gegnerübersicht erhöht wird.
+
+Zusatzsymbole aktivieren und Rahmen ausblenden stehen in allen vier Ansichten zur Verfügung. Ohne Zusatzeffekte und den separaten unterstützenden Fluch wird die Anzeige schmaler; Haupt-DoTs, Raidmarker und Execute-Hinweise bleiben sichtbar.
+
+Rahmen ausblenden entfernt Hintergrund, Außenrahmen und Zeilenumrandungen bei kleineren Außenabständen. Eine grüne Klammer links kennzeichnet in jeder rahmenlosen Ansicht dein ausgewähltes Ziel.
+
+In der Lebensbalkenansicht verändert der Zeilenhöhenregler jetzt neben dem Abstand auch die sichtbare Balkenhöhe. Schrift und Symbole behalten ihre Größe; Mindestmaße sichern die Lesbarkeit. Bei 100% bleibt die vertraute Anordnung erhalten.
+
+Zusatzsymbole sind anfangs eingeschaltet und Rahmen sichtbar. Der Fensterkopf bleibt separat schaltbar.
+
+Rahmen und Zusatzsymbole stehen unter Kampfanzeige; die Zeilenhöhe unter Allgemein. Nach der Installation /reload ausführen.
+
+VORHERIGES RELEASE
+
+RELEASE 1.7.5: GRÖSSE DER GEGNERÜBERSICHT FLEXIBLER EINSTELLEN
+
+Die Gesamtskalierung der Gegnerübersicht reicht jetzt von 40–130% in
+5%-Schritten. Damit ist eine kleinere Anzeige als bisher möglich. Deine
+vorhandene Skalierung bleibt erhalten; 100% bleibt die Voreinstellung.
+
+Breite und Zeilenhöhe lassen sich zusätzlich für jede der vier Ansichten
+unabhängig einstellen: Standard, Matrix, DoT-Balken und Lebensbalken.
+Dabei ändern sich die Maße der Anordnung; Symbole und Schrift behalten ihre
+Proportionen. Der Platzbedarf des Inhalts bestimmt die Mindestbreite und
+Mindestzeilenhöhe.
+Jede Ansicht speichert ihre eigenen Maße. Mit dem Zurücksetzen auf 100%
+erhält sie ihre normalen Proportionen zurück. Die Gesamtskalierung gilt
+für die Gegnerübersicht. Nach dem Installieren /reload ausführen.
+
+VORHERIGES RELEASE
+
+RELEASE 1.7.4: SORTIERUNG LEICHTER AUSWÄHLEN
+
+Öffne die DoT-Anordnung mit /cf dots. Unter Sortierung wählst du direkt
+Feste Reihenfolge oder Nach Ablauf. Die gewählte Möglichkeit bleibt markiert;
+Kurzinfos erklären die Wirkung in Standard und Lebensbalken: deine festgelegten
+Effektplätze oder zuerst die Effekte mit der kürzesten Restlaufzeit.
+Lebensbalken berücksichtigt jetzt dieselbe Sortierwahl. Matrix und DoT-Balken
+behalten deine feste Effektreihenfolge. Deine gespeicherte Sortierwahl bleibt
+erhalten. Nach dem Installieren /reload ausführen.
+
+VORHERIGES RELEASE
+
+RELEASE 1.7.3: LEBENSBALKENANSICHT
+
+Unter Kampfanzeige Lebensbalken wählen. Jeder Gegner erhält links Porträt
+und Raidmarker, mittig einen großen Lebensbalken mit Name, aktuellen/maximalen
+HP und Prozenten sowie rechts Effektsymbole mit Restzeiten. Die Haupteffekte
+folgen der gewählten Priorität; vier Zusatzeffekte stehen in zwei Zweierreihen.
+Eigener unterstützender Fluch und Execute-Schwerter bleiben verfügbar.
+Für diese Ansicht mindestens einen Hauptplatz in der DoT-Anordnung wählen.
+
+Vier direkte Auswahlen: Standard / Matrix / DoT-Balken / Lebensbalken.
+DoT-Balken ist die bisherige Balkenansicht unter einem eindeutigeren Namen.
+Deine gespeicherte Ansicht bleibt bis zur neuen Auswahl erhalten.
+Vorschlag von thermanshs.
+
+Längere Gegnernamen erhalten im vorhandenen Lebensbalken mehr Platz, ohne
+Fensterbreite oder Zeilenhöhe zu vergrößern. Nach dem Installieren /reload
+ausführen.
+
+Screenshot, Drei-Gegner-Kampfvideo und Nutzerrückmeldung zur beta1 bestätigen
+die gezeigten HP- und Zeitaktualisierungen, Zielwechsel und Entfernung bei
+den drei beobachteten Todesfällen auf Client 70450. Die abschließende
+Namensbreitenanpassung ist neu im Release; Ansichtswechsel und Todesfälle
+außerhalb der Sicht wurden in dieser Aufnahme nicht gesondert gezeigt.
+
+VORHERIGES RELEASE
+
+RELEASE 1.7.2: BALKEN UND HAUPTFENSTER-TRANSPARENZ
+
+Der kürzere Hauptfensterkopf behält den Autor und die bisherigen Fenstermaße.
+
+Unter Kampfanzeige direkt Standard / Matrix / Balken auswählen. Balken zeigt
+die gewählten Haupteffekte je Gegner in der Priorität aus der DoT-Anordnung.
+Zaubernamen anzeigen gibt es nur für Balken; ausgeschaltet wird die Ansicht
+schmaler. Vier Zusatzsymbole liegen am Porträt, der eigene Fluch daneben.
+Balken zeigt immer Lebensbalken mit HP% darin: ab 70% links, darunter rechts.
+Standard und Matrix behalten die gespeicherte Lebensanzeige-Auswahl. Unter
+Allgemein steuert Transparenz nur das Hauptfenster. Andere Fenster bleiben deckend.
+
+Die Lebensbalkenkorrektur aus beta2 ist enthalten. Nach dem Installieren bitte
+/reload ausführen. Jeder DoT-Balken zeigt den verbleibenden Anteil seiner eigenen
+Laufzeit; die Restzeit daneben gibt Sekunden an. Vorschlag von BenTheMan.
+Die bereitgestellten beta2-Aufnahmen bestätigen die gezeigten Lebensbalken und
+Prozentpositionen, darunter zwei Gegner mit und ohne Vorschläge auf 70450.
+Das Release erhält Verhalten und Anordnung aus beta3; die Aufnahmen prüfen
+nicht gesondert jede Klasse oder jeden nativen Darstellungsweg.
+
+VORHERIGES RELEASE
+
+RELEASE 1.7.1: CLIENT-WARTUNG
+
+Client- und Versionsangaben auf WoW Forever 1.60.1 (70450) aktualisiert.
+Der Screenshot bestätigt Release x64 und das Builddatum 15.10.2026. Nach
+Rückmeldung des Nutzers funktionierte im Spiel alles, was er beobachtete.
+Das ist keine gesonderte Prüfung jeder Klasse, jedes Talents oder Zusatzwegs.
+Die Funktionslogik entspricht dem exakt ausgelieferten Release 1.7.0. Ansichten,
+Gegnerverfolgung, Fluchwächter, Vorschläge, Einstellungen und Archive bleiben erhalten.
+
+MIT 1.7.0 EINGEFÜHRTE FUNKTIONEN
+
+RELEASE 1.7.0: KOMPAKTE ANSICHTEN UND KORRIGIERTER FLUCHWÄCHTER
+
+Cursive bleibt ein Mehrziel-DoT- und Debufftracker. Dieses Release ergänzt die
+kompakte Matrix neben Standard, verschmälert die Standardanzeige und ordnet
+bis zu vier Zusatzeffekte in beiden Ansichten in zwei Zweierreihen an. Die
+Matrix behält Porträts, Leben, Raidmarker, einen getrennten unterstützenden
+Fluch und native Restzeiten. Aura-Teilaktualisierungen erhalten die gewählte
+Anordnung; Fluch samt Zeitfläche hält den hervorgehobenen Zielrahmen frei.
+
+Der Fluchwächter berücksichtigt den Wechsel auf einen anderen unterstützenden
+Fluch, einschließlich Tollkühnheit, ohne die alte Schätzung weiterzuführen.
+Seine drei Zuweisungen bleiben erhalten. Ein abgeschlossener Zauber beweist
+weiterhin keinen Treffer; eine lesbare passende Aura kann bestätigen, dass
+der zugewiesene Fluch noch vorhanden ist.
+
+Das Release übernimmt das exakt ausgelieferte beta6. Optionale Handlungsvorschläge
+bleiben EXPERIMENTAL und bei Neuinstallation ausgeschaltet. Einstellungen,
+Filter, Aufzeichnungen und die geschützte Erhaltung von Gegnern außer Sicht
+bleiben erhalten.
+
+STANDARD, MATRIX, DOT-BALKEN UND LEBENSBALKEN
+
+Cursive bleibt ein Mehrziel-DoT-/Debufftracker. Unter Kampfanzeige > Ansicht
+wählst du Standard, Matrix, DoT-Balken oder Lebensbalken; Standard ist voreingestellt und
+die Auswahl wird gespeichert. FULL/minimal bestimmt davon unabhängig das
+Aussehen des Optionsfensters.
+
+Die Matrix zeigt gewählte Hauptsymbole einmal gemeinsam über jeder Spalte
+mit bis zu 20 Gegnern. Darunter stehen je Gegner die passenden Restzeiten.
+Unter /cf dots lassen sich bis zu acht Effektfamilien wählen und anordnen.
+Matrix verwendet immer diese festen Spalten; die gemeinsame Sortierwahl
+Nach Ablauf/Feste Reihenfolge für Standard und Lebensbalken bleibt gespeichert.
+Ohne gewählten Haupteffekt erscheint
+Standard. Die gemeinsame Symbolüberschrift bleibt bei ausgeblendetem Titel sichtbar.
+
+Die fünf Hexerfamilien Verderbnis, Omen der Pein, Feuerbrand, Zermürben (Wrack)
+und Lebensentzug passen ebenso wie Auswahlen aus den Katalogen aller neun Klassen.
+Zermürben wird zusätzlich im Anzeige-/Filterkatalog angeboten; die Familie
+1316697 war bereits in der Auswertung vorhanden. Die experimentellen
+Drei-DoT-Vorschläge werden dadurch nicht erweitert. Acht Hauptplätze sind das Limit.
+
+Zeiten bleiben an die nativen Aurenplätze gebunden. Ein kleiner goldener Strich
+gehört zum aktiven Platz, auch bei dauerhaften Effekten ohne Countdown.
+Bis zu vier Zusatzeffekte stehen in beiden Ansichten in zwei Zweierreihen.
+Die Matrix verwendet 14er-Symbole mit separater 8er-Zeitschrift daneben auf
+96 mal 30 Einheiten. Standard behält seine Zeiten unter den kleinen Symbolen
+auf 40 mal 50 Einheiten. Matrix benötigt 38 Einheiten Zeilenabstand ohne
+Vorschläge und 70 mit Vorschlägen. Die gemeinsame Symbolüberschrift ist
+22 Einheiten hoch.
+Standard bleibt bei 60/110 für eine/zwei Hauptreihen ohne Vorschläge
+beziehungsweise 70/120 mit Vorschlägen. Die Hauptzeitspalten haben
+28 Einheiten Abstand.
+
+In Standard rückt das Porträt näher zum linken Rahmen; Fluchspalte, goldene
+Trennlinie und erstes Hauptsymbol erhalten kleinere, sichtbar gleiche Abstände.
+Hauptsymbolgröße, Schriften und die 70 Einheiten breite Lebensspalte bleiben.
+Der kleinere Bereich für vier Zusätze verringert zusätzlich die reservierte
+Breite. Die separate Fluchzeit behält ihren eigenen 28 Einheiten breiten Bereich.
+
+Würde ein Ansichtswechsel erhaltene Effekte eines Gegners außer Sicht unterbrechen,
+wird er vorgemerkt. Die bisherige Anzeige bleibt bis zur sicheren Umschaltung
+oder bis Kampfende erhalten. Erneutes Anklicken der Ansicht storniert den Wechsel.
+Das schützt Wechsel zwischen Standard-Ablaufsortierung und Matrix, ohne erhaltene
+Zeitobjekte zu leeren. Die neue Geometrie liest weder Aureninhalte noch native
+Zeiten oder deren Sichtbarkeit aus und berechnet keine Ersatzzeiten.
+
+Historischer Prüfstand 1.7.0: 344 lokale Fälle bestanden (207 Verhalten,
+137 Wartung); die damals neun Laufzeitdateien kompilierten. TrackerTrace, DeathEvents, ExecuteIndicator,
+ExperimentalPlanner und ExperimentalPreview sind bytegleich zu 1.6.2. Das
+bereitgestellte beta6-Video bestätigt zweimal Schwäche → Tollkühnheit → Schwäche
+auf einem Gegner: Der Hinweis verschwindet beim zugewiesenen Fluch und kehrt
+beim konkurrierenden zurück. Belegumfang und verbleibende Grenzen stehen unten.
+
+FRÜHERE RELEASEHINWEISE (historisch)
+
+RELEASE 1.6.2: ÜBERARBEITETE, KOMPAKTERE GEGNERANZEIGE
+
+Die Standardansicht mit Porträts nutzt jetzt kompakte, gleichmäßig getrennte
+Gegnerzeilen. Haupt- und Zusatzeffekte sind bündig ausgerichtet. Acht kleine
+Zusatzsymbole passen samt nativen Restzeiten in zwei Viererreihen; das fünfte
+beginnt die untere Reihe. Ein Fluchplatz sitzt neben dem Porträt. Der unnötige
+Seitenstreifen entfällt; Porträtring, Zeilenrahmen und Raidmarker kennzeichnen
+weiterhin die Ziele. Beide kleinen Reihen und ihre Zeiten wurden im Spiel bei
+der verwendeten Skalierung auf 1.60.1/70374 als tadellos lesbar bestätigt.
+
+Aktuell gibt es eine automatisch verwendete Gegneransicht. Der überflüssige
+Standard-Radiobutton entfällt in beiden Optionsansichten. FULL/minimal wählt
+weiterhin das Aussehen des Optionsfensters. Ausblendbarer Fensterkopf,
+Urheberhinweis, Execute, Lebensanzeige, Zauberfilter und gespeicherte Auswahl
+bleiben erhalten. Die Vordergrundkorrektur für Kontakt & Rückmeldung ist enthalten.
+
+Das Release verwendet die normale Viererbelegung aus beta5 mit denselben Maßen
+und Abständen. Die vorübergehende spaltenweise Testanordnung entfällt.
+Zuschaltbare Handlungsvorschläge bleiben EXPERIMENTAL und bei Neuinstallation aus.
+315 lokale Fälle bestehen: 192 Verhaltens- und 123 Wartungsfälle.
+
+FUNKTIONEN IM ÜBERBLICK
+
+- Eigene DoTs und Debuffs auf bis zu 40 Gegnern verfolgen.
+- Standard oder Matrix wählen; bis zu acht gemeinsame Hauptspalten vergleichen.
+- Lebensbalken oder Prozent wählen; eine gespeicherte Auswahl bleibt erhalten.
+- Execute-Hinweis mit vier Einstellungen nutzen; Automatisch ist die Vorgabe.
+- Fensterkopf samt Urheberhinweis ausblenden und seine Höhe einsparen.
+- Kompakte gleichmäßige Zeilen, gemeinsame Vorschlagspriorität und Todesmeldungen.
+- Bis zu acht Haupteffekte für beide Ansichten wählen; Standard bietet auch Ablaufsortierung.
+- Unterstützende Flüche in beiden Ansichten am Porträt platzieren.
+- Das animierte Grimoire FULL oder die schlichten Optionen minimal verwenden.
+- Vorhandene Filter, Positionen und Raven-Archiv beim Aktualisieren erhalten.
+- Zuschaltbare Hexenmeister-Vorschläge bleiben EXPERIMENTAL und bei einer
+  neuen Installation aus. Sie schätzen Erneuerungen und bestätigen keine Treffer.
+
+ENTHALTEN SEIT 1.6.1: EXECUTE-HINWEIS UND AUSBLENDBARER FENSTERKOPF
+
+Unter Kampfanzeige gibt es vier Execute-Einstellungen: Automatisch (Vorgabe),
+Unter 35 %, Unter 20 % und Aus. Standard zeigt gekreuzte Schwerter und ein
+ruhiges goldenes Execute! unter dem Lebensbalken oder Prozentwert; Matrix zeigt
+die Schwerter am Porträt. Dafür braucht es keine zusätzliche Zeile. Automatisch
+prüft erlernte Klassenfähigkeiten und Talente; die festen Schwellen gelten für
+jede Klasse, etwa für Raidansagen.
+
+Automatisch: Hexenmeister mit Dezimierung und Schurke mit Exitus unter 35 %;
+Krieger mit Hinrichten und Paladin mit Hammer des Zorns bei höchstens 20 %;
+Priester mit Early Demise und erlerntem Schattenwort: Tod bei höchstens 20 %.
+Andere Klassen erhalten keinen automatischen Hinweis. Die manuellen Schwellen
+gelten jeweils strikt unter dem gewählten Wert. Der Hinweis bezeichnet den
+Gesundheitsbereich, keinen aktiven Proc und keine sofortige Zauberbereitschaft.
+Ohne aktuelle Einheit bleibt nur der abgeblendete letzte Stand. Eine geänderte
+Einstellung löscht alte Hinweise bis zur nächsten passenden Live-Zuordnung.
+
+Allgemein > Fensterkopf anzeigen ist zunächst an. Ausschalten entfernt die
+Titelzeile samt ihrer Höhe, auch am leeren Fenster. Das entsperrte Fenster
+lässt sich dann am freien Hintergrund ziehen. Bei ausgeschalteten feindlichen
+Namensplaketten bleibt die Warnung im Kopf vorübergehend sichtbar. Urheber und
+ein kopierbarer Link zu den CurseForge-Kommentaren stehen unter Hilfe & Info.
+Im sichtbaren Kopf steht außerdem wieder "created by Leandarh Valinor". Danke
+an AbelBeja für den Vorschlag, den Versionskopf ausblendbar zu machen!
+
+Den Ordner CursiveForever bei beendetem WoW aktualisieren; SavedVariables
+behalten. Die experimentelle Vorschau bleibt bei Neuinstallation aus und
+übernimmt eine gespeicherte Auswahl. Der Planer rechnet weiter mit unbegrenzter
+Gegnerlebensdauer. Die Module für Verfolgung, Todesmeldungen, Aurenanordnung,
+Vorschau und Planung bleiben erhalten. Beta4-Sitzung 95 bestätigte passende
+PARTY_KILL- und UNIT_DIED-Meldungen samt Zeilenbereinigung im selben Zeitpunkt.
+Das belegt keine vollständige Zustellung ohne erreichbare Einheit. Die separate
+Death Probe wird nicht benötigt. Beide manuellen
+Execute-Schwellen wurden auf 1.60.1/70374 im Spiel bestätigt: vorher ausgeblendet,
+darunter sichtbar, bei 20 % entsprechend später als bei 35 %. Die Aufnahme zeigt
+den Hinweis unter dem Lebensbalken und den ausgeblendeten Kopf. Automatische
+Talenterkennung ist noch nicht im Spiel bestätigt.
+
+GESCHÄTZTE ERSTANWENDUNGEN
+
+Wenn das Addon den neuen Kampfstart nach einem bekannten Zustand außerhalb des
+Kampfes erfasst, kann die Vorschau eingeschaltete DoTs ohne bisher erfasste eigene
+Anwendung auf diesem Gegner einplanen. Beispiel: Omen und Verderbnis laufen noch;
+Feuerbrand passt vor die nächste Erneuerung und wird sofort vorgeschlagen.
+Fällige Prioritäten über mehrere Gegner und Zauberzeit/GCD gelten weiterhin.
+Im Modell leben Gegner nach wie vor unbegrenzt.
+
+Das ist eine geschätzte Erstanwendung, mit ~ und einer Erläuterung im Tooltip.
+Sie beweist keine fehlende Aura und erzeugt keinen bestätigten Anwendungseintrag.
+Neuladen/Zurücksetzen mitten im Kampf oder unsichere Zauberzuordnung sperrt diese
+Annahme. Ein zuvor unvollständiger Gegnerverlauf bleibt unvollständig; neue Gegner
+in einem später vollständig erfassten Kampf können berücksichtigt werden.
+Vorschau Ein/Aus erhält den Verlauf. Nur gelernte, gewünschte Effekte einschalten.
+Eine automatische Fehlschlagerkennung gibt es weiterhin nicht.
+
+Erstanwendungsannahmen bleiben von der nativen Anzeige getrennt.
+Eine automatische Treffer-/Fehlschlagerkennung ist weiterhin nicht verfügbar.
+
+INSTALLATION / UPDATE
+
+Client schließen und CursiveForever unter Interface/AddOns ablegen.
+CursiveForever.toc muss direkt in diesem Ordner liegen. Vorherige Addondateien
+ersetzen und SavedVariables behalten, damit Einstellungen und Kämpfe erhalten
+bleiben. Cursive Forever in der Addonliste der Charakterauswahl aktivieren.
+Dies ist das vollständige Releasepaket. Genau einen Ordner CursiveForever
+installieren, keine verschachtelten oder parallelen Fassungen. SavedVariables
+nicht löschen.
+
+EXPERIMENTELLE HANDLUNGSVORSCHLÄGE
+
+Diese Version enthält eine gesondert als experimentell gekennzeichnete
+Hexenmeister-Vorschau für Omen der Pein, Verderbnis und Feuerbrand. Bei einer neuen
+Installation ist sie aus; eine gespeicherte Auswahl bleibt beim Aktualisieren
+erhalten. Mit /cfexp on oder „Vorschläge“ neben der DoT-Anordnung unter
+Kampfanzeige einschalten. Rechtsklick auf diesen Schalter oder /cfexp öffnet
+Effektauswahl, Laufzeiten, Zauberzeiten und globale Abklingzeit (GCD) sowie einen
+Verweis zur gemeinsamen DoT-Reihenfolge. Diese Einstellungen und die gemeinsame
+Reihenfolge werden je Charakter gespeichert.
+
+Jede nutzbare Gegnerzeile zeigt bis zu zwei geplante Aktionen. Grün 1 bedeutet:
+Die erste Aktion ist jetzt fällig. Gold 1 bedeutet: Sie ist erst später
+geplant. Blau 2 markiert die darauf folgende globale Aktion. Setzen bezeichnet
+eine Erstanwendung, Zaubert einen laufenden Versuch und in ...s eine spätere
+Erneuerung. Das Zeichen ~ kennzeichnet eine Schätzung. Unbekannte Laufzeiten ohne vollständigen Kampfverlauf nehmen nicht an der
+Planung teil: ? ist keine Aufforderung zum Zaubern. Erstanwendungen im vollständig
+erfassten Kampf verwenden die oben beschriebene eigene Schätzung. Bekannte
+Timer behalten ihre normale Erneuerungsplanung.
+
+Die Priorität folgt deiner gespeicherten DoT-Reihenfolge. Unter fälligen
+Aktionen entscheidet sie; sonst kommt der früheste bevorstehende Zeitpunkt zum
+Zug. Der zweite Vorschlag simuliert die erste Anwendung samt Zauberzeit/GCD.
+Weitere Zeilenvorschläge setzen nach diesen beiden Aktionen an. Ein Zauber darf
+vor Ablauf beginnen, damit sein geschätzter Abschluss mit dem Ablauf
+zusammenfällt. Hohe Priorität allein rechtfertigt kein vorzeitiges Erneuern.
+
+Beispiel: Feuerbrand ist auf A abgelaufen, Omen ist auf B und C fällig. Global
+folgt Omen auf B, danach Omen auf C. Ein während der ersten Aktion fällig
+werdendes Omen kann ebenfalls den zweiten Platz erhalten. Die Prioritäten sind
+deine Vorgabe, keine Messung des Schadens pro Zauber. Gegner leben im Modell
+unbegrenzt; ob ein weiterer DoT noch genügend Schaden verursachen kann,
+entscheidest du selbst.
+
+Die Vorschau verwendet ein eigenes GESCHÄTZTES Zeitmodell. Ein abgeschlossener
+Zauber bestätigt keinen Treffer. Verfehlen, Widerstehen, Entfernen und
+Überschreiben werden nicht zuverlässig erkannt. Frei lesbare eigene Aura-Werte
+können Schätzungen korrigieren; nil oder gesperrte Werte beweisen kein Fehlen.
+Die native DoT-Anzeige bleibt die Sichtkontrolle und wird nicht zur Berechnung
+der Vorschläge zurückgelesen. Geschätzte Timer werden weder als bestätigte
+Anwendungen an die Raben-Auswertung noch an den Fluchwächter übergeben.
+
+Über den Vorschlagssymbolen kennzeichnet „Versuch: ...“ einen laufenden
+Versuch. Ein Zaubername mit ? bezeichnet den letzten abgeschlossenen,
+unbestätigten Versuch dieser Zeile. Siehst du Verfehlen oder Widerstehen, setzt
+ein RECHTSKLICK AUF DIESE BESCHRIFTUNG genau diesen DoT auf genau diesem Gegner
+wieder fällig. Das funktioniert auch, wenn der Zauber nicht mehr unter den
+beiden Vorschlägen steht oder du inzwischen ein anderes Ziel ausgewählt hast.
+Dies ist eine manuelle Korrektur, keine automatische Treffererkennung. Der
+Rechtsklick zaubert nichts.
+
+Alternativ den betroffenen Gegner auswählen und /cfexp miss immolate, agony
+oder corruption eingeben. Die deutschen Namen feuerbrand, omen und verderbnis
+funktionieren ebenfalls. Alt + Rechtsklick auf ein Vorschlagssymbol setzt
+dessen Effekt in dessen Zeile erneut fällig. Vorausgesetzt wird normales
+Zaubern auf das ausgewählte Ziel: Dessen Kennung wird beim Absenden
+festgehalten. Mauszeiger-/Fokusmakros und andere gleichnamige Gegner lassen
+sich nicht zuverlässig zuordnen. Noch nicht gelernte Effekte unter /cfexp
+abwählen.
+
+Das Sitzungsmodell erfasst passende eigene Zauberversuche jetzt auch bei
+ausgeblendeter Vorschau. Ein- und Ausschalten erhält das Modell einschließlich
+laufender Zauber. /cfexp reset und Neuladen/Welteintritt löschen es weiterhin;
+mitten im Kampf bleiben unbekannte Laufzeiten danach unbekannt. Erst ein späterer,
+vollständig erfasster Kampf erlaubt Erstanwendungsannahmen für neue Gegner.
+Tatsächliche Zauberränge werden
+aus deinen Versuchen gelernt. Laufzeiten verwenden lesbare Beobachtungen oder
+Rang-/Basiswerte. Für Talente und Serverabweichungen eigene Werte eintragen; 0
+stellt wieder automatisch ein.
+
+Beim Wegdrehen bleiben die gemerkte Zeile und ihre letzte HP-Zahl bzw. der
+Lebensbalken ohne zusätzlichen Außer-Sicht-Hinweis erhalten. Native Zähler
+werden erhalten, solange ihre Zuordnung sicher bleibt. Vor dem Leeren einer
+wiederverwendeten Bindung sucht die Anzeige ein lesbares passendes Ziel, einen
+Fokus, Mauszeiger, ein Begleiterziel oder Ziel des Ziels. Deren Aura-Ereignisse
+können die native Anzeige aktualisieren. Fehlt jede nutzbare Zuordnung, kann
+das Raster weiterhin leer werden; durchgehende Zähler außerhalb der Sicht
+sind nicht garantiert. Das gilt mit ein- und ausgeschalteten Vorschlägen.
+
+Bekannte geschätzte Timer bleiben in der globalen Planung und tragen außerhalb
+der Sicht ~. Letzte HP und gemerkte native Anzeigen sind keine frischen Messwerte
+und bestätigen weder Leben, Aura-Fortbestand noch Treffer. Sie liefern keine
+unbeobachteten Ticks an die Auswertung.
+
+Lesbar bestätigter Tod mit passender Kennung entfernt Zeile und Schätzungen,
+auch beim Verschwinden des Namensschilds, sofern der Hinweis noch vorliegt.
+Zurückkehrende Gegner werden nach Kennung verbunden; Kampfende räumt gemerkte
+Zeilen auf. Filter-/Reihenfolgewechsel und Anordnungs-/Bindungsfehler können
+native Objekte ungültig machen; gemerkte Kennung und Schätzungen bleiben.
+Eigenständige lesbare Todesmeldungen entfernen die passende Zeile jetzt auch
+ohne erreichbare Zieleinheit. Ohne nutzbaren Todesbeleg ist sofortige Bereinigung
+nicht möglich; ein fehlendes Namensschild oder 1 HP sind kein Todesbeweis.
+
+OPTIONEN IM ÜBERBLICK
+
+/cf options öffnet das gespeicherte Options-Design. FULL ist die Voreinstellung,
+auch beim Aktualisieren ohne bisherige Designwahl: Gul’dan hält ein offenes
+Grimoire mit den Einstellungen auf beiden Buchseiten. minimal zeigt das
+vertraute schlichte Fenster. Beide Ansichten verwenden dieselben Einstellungen
+und echten Bedienelemente und passen sich automatisch dem Bildschirm an.
+Die Designwahl gilt addonweit und bleibt nach /reload erhalten. Sie ist von
+der Zeilendarstellung „Standard“ der Gegnerübersicht unabhängig.
+
+Die Kapitelreihenfolge lautet Allgemein, Kampfanzeige, Auswertung, Hilfe & Info.
+Ein weiter unten stehendes Kapitel blättert vorwärts, eines weiter oben
+rückwärts. Auch beim Überspringen mehrerer Kapitel erfolgt nur eine kurze
+Bewegung. Ein Klick auf das aktive Kapitel blättert nicht. Bei schnellen Klicks
+bleibt das zuletzt gewählte Ziel erhalten. Schließen oder Designwechsel
+übernimmt die Zielauswahl und beendet die Animation.
+
+FULL bietet waagrechte, funktionsfähige Regler. Unter Hilfe & Info steht
+unten rechts die Signatur: created by Leandarh Valinor. Die Inschrift gehört
+zur rechten Hilfeseite und folgt dieser beim Blättern. Beide Blattseiten
+bleiben deckend; Titel und Inschrift sind richtig herum lesbar.
+Die Designwahl sitzt in FULL als verzierte Buchschließe unter den
+Lesezeichen, in minimal unter Allgemein. /cf grimoire (auch /cf full) und /cf minimal wählen und öffnen die
+jeweilige Ansicht direkt.
+
+Die vier Kapitel bieten:
+- Allgemein: Sprache, Minikarte, Fenstersperre, Fensterkopf, Größe und Position.
+- Kampfanzeige: Lebensanzeige, DoT-Anordnung, Vorschläge, Ziel außerhalb des
+  Kampfes, Klassenfilter, Prioritätsmarker, Execute und Fluchwächter.
+- Auswertung: Monitor, Karten, Aufzeichnung sowie Größe/Position des Raben.
+- Hilfe & Info: Bedienung, Befehle, Versionshinweise und kompakter Status.
+
+Die Bedienelemente stehen in zwei festen Spalten. DoT-Anordnung und
+Vorschläge teilen sich eine Zeile.
+Änderungen wirken sofort. Das niedrigere Fenster passt sich automatisch dem
+verfügbaren Bildschirm an. Beim erneuten Öffnen in derselben Sitzung bleibt
+der zuletzt gewählte Reiter erhalten.
+
+SCHNELLSTART UND GEGNERÜBERSICHT
+
+Feindliche Namensplaketten für die zuverlässige Gegnererkennung einschalten.
+Sind sie deaktiviert, zeigt die Titelleiste einen Hinweis mit der im Client
+zugewiesenen Taste. Mit /cf options Sprache, Darstellung, Filter und Größe
+wählen. Linksklick auf das verschiebbare Minikartensymbol öffnet Optionen,
+Rechtsklick schaltet die Gegnerübersicht um.
+
+Bis zu 40 Gegner erscheinen in zwei Spalten mit je 20 Zeilen: mit Lebenspunkten
+und eigenen schädlichen Effekten. Standard ist voreingestellt und sortiert
+zunächst nach Restlaufzeit. Standard und Lebensbalken verwenden gemeinsam die
+Auswahl Feste Reihenfolge/Nach Ablauf. Matrix verwendet feste Spalten;
+DoT-Balken folgt dieser Reihenfolge von oben nach unten. Das aktuelle Ziel wird
+hervorgehoben. Standard zeigt Porträts, Lebensanzeige und Effekte ohne Gegnernamen.
+Unter Kampfanzeige > Ansicht wechselst du zur Matrix mit gemeinsamen Symbolen
+über den Restzeiten.
+Außerhalb des Kampfes erscheint nur das gewählte feindliche Ziel. Solo und in
+Gruppen zählt die Beteiligung von Spieler oder Begleiter; im Raid werden
+sichtbare feindliche Namensplaketten einbezogen. Erfasste Kampfgegner können
+erhalten bleiben, wenn ihre Plakette aus dem Blickfeld verschwindet. Tote
+Gegner verschwinden. Ein Zeilenklick wählt kein Kampfziel aus.
+
+Unter Kampfanzeige → Lebensanzeige ist Balken die Voreinstellung. Anklicken
+wählt Prozent. Der Balken ersetzt die Prozentzeile. Die Lebenspunktezahl steht
+in Standard darüber, in Matrix direkt im Balken. Bei Prozentwahl behält Matrix
+Lebenspunkte und Prozentwert.
+Grün, Gelb und Rot folgen dem Lebensstand. Die Auswahl wird gespeichert. Eine vorhandene Auswahl, auch Prozent,
+bleibt beim Aktualisieren erhalten.
+
+DOT-ANORDNUNG UND FLÜCHE AM PORTRÄT
+
+/cf dots (auch /cf anordnung) oder Optionen > Kampfanzeige > DoT-Anordnung
+einstellen öffnen. Unter Sortierung direkt Feste Reihenfolge oder Nach Ablauf
+wählen. Die gewählte Möglichkeit bleibt markiert; Kurzinfos erklären beide.
+Die Sortierwahl gilt für Standard und Lebensbalken; Nach Ablauf ist die
+Voreinstellung. Feste Reihenfolge hält gewählte Effekte bei jedem Gegner an
+derselben Stelle, auch wenn dort gerade keine passende Aura angezeigt wird.
+Nach Ablauf zeigt die Effekte mit der kürzesten Restlaufzeit zuerst. Matrix
+und DoT-Balken behalten deine festgelegte Effektreihenfolge.
+
+Bis zu acht Effektfamilien auswählen und mit Auf/Ab verschieben. Beim
+Hexenmeister sind Verderbnis, Omen der Pein/Agonie und Feuerbrand vorbelegt;
+diese Auswahl lässt sich um Zermürben und Lebensentzug oder andere Familien
+erweitern. In Standard passen vier Plätze in eine Zeile, ab dem fünften beginnt
+eine zweite. Matrix zeigt alle gewählten Familien in gemeinsamen Spalten.
+Die Reihenfolge wird je Charakter gespeichert. Weitere eingeschaltete Effekte,
+auch neue/unbekannte, nutzen bis zu vier Zusatzplätze rechts: zwei Reihen mit
+je zwei Symbolen in beiden Ansichten. Die Zeiten stehen in Standard darunter,
+in Matrix daneben. Vorhandene Zauberfilter gelten weiterhin; ausgeblendete Familien
+lassen ihren Platz frei, statt die Spalten zu verschieben. Ein freier Platz
+ist keine Zauberempfehlung und kein Beweis für eine fehlende Aura.
+
+Für Hexenmeister ist Unterstützende Flüche am Porträt zunächst eingeschaltet.
+Beide Ansichten zeigen eigene Schwäche, Sprachen, Tollkühnheit oder
+Erschöpfung in einem kleinen Platz neben dem Porträt mit nativer Zeit darunter.
+Raid-Zielsymbole bleiben über dem Porträt und innerhalb der Gegnerzeile.
+Ausschalten bringt diese Flüche zurück in die normale Effektleiste.
+Diese Anzeigeoption ist vom persönlichen Raid-Fluchwächter unabhängig.
+
+ZAUBERFILTER
+
+/cf filters öffnet die Filter der eigenen Klasse. Alle neun Klassen besitzen
+einen Katalog von Effektfamilien mit getrennten Häkchen für Solo, Dungeon/
+Gruppe und Raid. „Alle anzeigen/ausblenden“ gilt für die aufgeführten Familien
+dieser Klasse. Nicht katalogisierte Effekte bleiben sichtbar. Vorhandene
+Hexenmeister- und Druiden-Einstellungen bleiben erhalten; /cf owl öffnet
+weiterhin die Druidenmatrix. Die Filter gelten je Klasse charakterübergreifend.
+
+Ränge werden außerhalb des Kampfes aus dem Zauberbuch ergänzt, beim Einloggen
+und nach Zauberbuchänderungen. Zusätzliche Ränge ausgelöster Fallen-, Gift- und
+Richturteilseffekte werden nur bei passendem Namen im laufenden Client
+übernommen. Neue Forever-Varianten können weitere Zuordnungen und Spieltests
+erfordern. Ein bevorzugter Raidmarker sortiert passende Gegner nach oben;
+standardmäßig der Schädel. Der Client kann Marker im Kampf einschränken.
+
+PERFORMANCE-MONITOR UND ARCHIV
+
+Mit /cf performance oder Optionen > Auswertung öffnen. Der Monitor
+öffnet sich nur auf Wunsch. Bis zu fünf klassenspezifische Karten zeigen:
+- Schaden und Anteil: Werte aus dem DamageMeter des Clients.
+- Zauber: abgeschlossene Versuche, auch unbestätigte oder erfolglose.
+- Uptime und Erneuerungen: aus bestätigten eigenen Anwendungen abgeleitet.
+
+Die Zusammenfassung enthält Gesamtschaden, Lebendzeit und Tode. Ein Klick auf
+eine Karte öffnet Zielfilter, Abdeckung, Lücken und den Zauberverlauf. Das Raven
+Archive speichert bis zu 30 geeignete Kämpfe je Charakter, auch Wipes. Die
+Aufzeichnung lässt sich abschalten. Mindestdauer: 15–60 Sekunden in Schritten
+von 5 Sekunden, Vorgabe 45. Einzelne Kämpfe oder das gesamte Charakterarchiv
+lassen sich in der Oberfläche löschen.
+
+Der Archivpfeil schaltet die Liste um. Die kompakte Ansicht blendet große
+Karten und Archiv aus. Der Monitor hat eine eigene Größe von 50–120% in
+5%-Schritten. Optionen > Auswertung > Größe & Position bietet
+Zentrieren und Rücksetzen auf 100%. Das Fenster lässt sich ziehen. Größe,
+Position, Archivzustand und kompakte Ansicht werden je Charakter gespeichert.
+
+RABEN-KARTEN AUSWÄHLEN
+
+/cf karten oder Optionen > Auswertung > Karten auswählen: Bis zu fünf unterstützte Effekte
+anhaken und mit „Auf“ / „Ab“ von links nach rechts anordnen. Platz 3 ist die
+große mittlere Karte. Auswahl und Reihenfolge werden je Charakter gespeichert;
+auch eine leere Auswahl ist möglich. „Standard wiederherstellen“ zeigt wieder
+die aufgezeichnete Reihenfolge. Optional lassen sich Werte und Klickflächen
+unbenutzter Effekte ausblenden, wenn Schadensdaten vorliegen. Die feste
+Rabenzeichnung einschließlich ihrer dekorativen Kartenrahmen bleibt bestehen.
+
+Alle unterstützten Effekte werden unabhängig von der Anzeige weiter erfasst.
+Alte Aufzeichnungen werden nicht verändert. Fehlt ein ausgewählter Effekt
+im alten Kampf, erscheint „Nicht aufgezeichnet“ mit Strichen statt Nullwerten.
+Die Details bleiben auch nach einer Umordnung dem richtigen Effekt zugeordnet.
+
+Paladine erhalten eine Schadenskarte für Weihe; Jägerfallen werden einer
+gemeinsamen Schadenskarte zugeordnet. Bei diesen Flächeneffekten stehen Schaden
+und Anteil zur Verfügung. Zauberzahlen, Zielabdeckung und Erneuerungs-/Tickwerte
+werden dafür nicht abgeleitet. Die übrigen Klassen behalten ihre unterstützten
+Effektfamilien. Zauberschaden kann direkte und periodische Anteile enthalten.
+
+UNVOLLSTÄNDIGE WERTE VERSTEHEN
+
+Der Client kann Aura-Abfragen sperren. Leere oder geschützte Antworten belegen
+keinen Fehlschlag. Zauberabschluss oder Schaden belegen keine Aura-Zeitdaten.
+Betroffene Karten und Details zeigen Client-Sperre oder Unbestätigt; fehlende
+Uptime-, Erneuerungs- und Tickwerte bleiben —. Lesbare Namensabfragen können
+Anwendungen auch nach gesperrter Listenabfrage bestätigen.
+
+Uptime beruht auf bestätigten Anwendungen und Laufzeiten über die relevante
+Zielzeit. Drei Ziele mit je 100 Sekunden ergeben 300 Zielsekunden; ein Ziel
+durchgehend abzudecken entspricht etwa 33,3%. Vorzeitiges Entfernen nach einer
+Bestätigung wird nicht laufend beobachtet. Teilweise Aufzeichnung bedeutet,
+dass sich nicht alle Zielzeiten zuordnen ließen; Zieldetails können dann von
+der Übersicht abweichen. Alte Kämpfe behalten ihre gespeicherten Werte und die
+jeweils vorhandenen Übersichten oder Details.
+
+Tickschätzungen für Pein, Feuerbrand und Verderbnis modellieren eine Erneuerung,
+die den Ticktakt neu startet. Grundintervalle: Pein 2 Sekunden, Feuerbrand und
+Verderbnis 3 Sekunden, ohne Tempo. Der Vergleich beginnt mit der ersten
+bestätigten Anwendung und nimmt lückenlose Erneuerung nach Ablauf an. Lücken
+können zur Differenz beitragen; ein verschobener Tick kann bis zum Kampfende
+aufholen. Tote oder nicht mehr verfügbare Ziele sammeln keinen weiteren
+berechneten Verlust. Verworfener Tickfortschritt und verlorene Ticks dürfen
+nicht addiert werden. Feuerbrands Direkttreffer ist kein periodischer Tick.
+Die Werte sind Schätzungen, kein gemessener Schadensverlust. Mehr dazu steht
+in der Berechnungshilfe. Je Effekt bleiben bis zu 128 Ziele und die neuesten
+256 Zauberereignisse erhalten; gekürzte Aufzeichnungen sind gekennzeichnet.
+
+PERSÖNLICHER RAID-FLUCHWÄCHTER
+
+Unter /cf curse Schwäche, Sprachen oder Erschöpfung wählen. Der Hinweis folgt
+eigenen abgeschlossenen Zaubern als Erinnerung, ohne den Fluch auf dem Ziel
+zu bestätigen. Er warnt bei fehlendem Timer und kurz vor Ablauf; die Schwelle
+ist von 3–10 Sekunden einstellbar. Ein anderer abgeschlossener unterstützender
+Fluch, auch Tollkühnheit, verwirft die alte Erinnerung nur für den zugeordneten
+Gegner. Ein fremder Fluch erfüllt die Zuweisung nicht. Bei unklarer Zuordnung
+entsteht keine neue Erinnerung. Ohne lesbare Bestätigung bleibt die Anwendung
+unbestätigt. Testknopf oder /cf cursetest zeigen die
+Vorschau außerhalb eines Raids am feindlichen Ziel. Erneut betätigen beendet sie.
+
+SPRACHE UND DARSTELLUNG
+
+Auto verwendet auf deDE-Clients Deutsch, sonst Englisch. Deutsch oder English
+können unabhängig von der Zaubererkennung gewählt werden. Die Optionen bieten
+außerdem die Themen Dezent, Rabe und Voll sowie Größe und Position der Übersicht.
+
+BEFEHLE
+
+/cf                 Gegnerübersicht umschalten
+/cf show / hide     Gegnerübersicht ein- / ausblenden
+/cf options         Optionen (auch: option, opt)
+/cf performance     Performance-Monitor (auch: perf)
+/cf filters         Zauberfilter der eigenen Klasse (auch: filter, spells)
+/cf owl             Druidenfilter (auch: owlcorner, banther)
+/cf curse           Fluchwächter-Einstellungen (auch: fluch)
+/cf cursetest       Fluchwächter-Vorschau umschalten (auch: curse test)
+/cf history         Aktuelle Versionshinweise (auch: changelog)
+/cf reset           Position der Gegnerübersicht zurücksetzen
+/cf karten          Raben-Karten auswählen und anordnen (auch: cards)
+/cf diagnose        Kompakten, kopierbaren Status öffnen
+
+Der Status öffnet sich nur auf Wunsch. Er zeigt Client-/Addonversion und die
+Bestätigungszähler des laufenden, zuletzt beendeten oder neuesten archivierten
+Kampfes. Der letzte Kampf bleibt bis zum Neuladen auch unter der Mindestdauer
+verfügbar. Text auswählen und Strg+C kopieren den Bericht; ESC schließt ihn.
+Frühere Diagnosebefehle öffnen denselben Status. Debug und manuelle Suche
+wurden als Entwicklungsbefehle entfernt; ausführliche Fehlersammlungen werden
+nicht mehr gespeichert.
+
+RELEASESTAND UND BEKANNTE GRENZEN
+
+Aktueller Clientstand: WoW Forever 1.60.1 (70450), Release x64, Builddatum
+15.10.2026. Nach Nutzerrückmeldung liefen alle beobachteten Funktionen auf
+diesem Client. Die neuen beta2-Aufnahmen auf 70450 bestätigen die gezeigten
+Lebensbalken, Prozentpositionen und zwei Gegner mit und ohne Vorschläge.
+Die folgenden früheren Detailaufnahmen und das beta6-Video entstanden auf 70425 und bleiben diesem Client als Beleg zugeordnet. Die Aufnahmen
+zeigen Standard und Matrix im Spiel
+und bestätigen den korrigierten Matrix-Rahmenabstand bei gezeigter Skalierung.
+Das bereitgestellte beta6-Video bestätigt zweimal Schwäche → Tollkühnheit →
+Schwäche auf einem Gegner: Der Hinweis verschwindet bei Schwäche, kehrt bei
+Tollkühnheit zurück und verschwindet bei Schwäche erneut. Beim gezeigten Tod
+wird die Gegnerzeile entfernt. Das bestätigt diesen Ablauf, nicht sämtliche
+Ränge, Mehrzielzuordnungen oder Wege ohne erreichbare Einheit. Frühere
+Spielbelege gehören zu 1.60.1 (70374): kleine Restzeiten, manuelle 35-%-/20-%-
+Execute-Hinweise und passende Todesbereinigung. Automatische Talenterkennung
+und das Rückmeldungsfenster haben keine gesonderte neue Clientbestätigung.
+
+TrackerTrace, DeathEvents, ExecuteIndicator, ExperimentalPlanner und
+ExperimentalPreview sind bytegleich zu 1.6.2. Die Darstellungsgeometrie und
+Ansichtsauswahl bleiben davon getrennt. Erhaltene native Aurenobjekte bleiben
+bestehen; ein unvereinbarer Wechsel wartet, statt die Anzeige eines Gegners
+außer Sicht zu leeren. Das beweist keine vollständige Todeszustellung ohne jede
+erreichbare Einheit. Unbekannter Todeszustand wird nicht erraten. Ohne passende
+lesbare Einheit kann das native Aurenraster weiterhin leer werden; dies bleibt
+eine eigene Grenze. Zauberabschluss bestätigt keinen Treffer; beobachtete
+Fehlschläge bleiben manuell korrigierbar. Zermürben und Lebensentzug sind im
+Anzeigekatalog wählbar; die experimentelle Vorschau umfasst weiter nur Omen der
+Pein, Verderbnis und Feuerbrand.
+
+Die beta2-Basis bestand 365 lokale Fälle: 219 Verhalten, 137 Wartung und
+9 Hauptfenster-Transparenz. Ihre elf Laufzeitmodule und Prüfdeckung bleiben
+bis auf den kürzeren Titel und Versionsangaben erhalten. Tests/ wird nicht
+im Spiel geladen. Die lokalen Prüfungen bilden native Darstellung,
+Lebensdauer nativer Zeitobjekte und das Schutzsystem nicht vollständig nach.
+
+GEGNERBERICHTE
+
+Aufzeichnung ist voreingeschaltet, sofern nicht zuvor ausgeschaltet. /cftrace on
+schaltet ein und erhält einen laufenden Mitschnitt. /cftrace off beendet und
+speichert ihn. /cftrace clear entfernt bewusst die gespeicherten Berichte und
+leert beide Speicher; eine laufende Aufzeichnung beginnt anschließend neu.
+
+/cftrace zeigt den laufenden oder zuletzt abgeschlossenen Bericht. /cftrace 1
+bis /cftrace 5 wählt die fünf jüngsten abgeschlossenen Berichte, neuester zuerst.
+Jeder neue Bericht enthält eine fortlaufende Nummer, soweit verfügbar die lokale
+Startzeit sowie seine Dauer. Einschalten mitten im Kampf trägt die Kennzeichnung
+RECORDING_START_MID_COMBAT, bewusstes Leeren RECORDING_RESTARTED_AFTER_CLEAR.
+Das sind Teilaufzeichnungen, keine vollständigen Kämpfe. Der Einzelbericht der
+Vorversion bleibt beim ersten Speichern des Verlaufs erhalten. Abgeschlossene
+Berichte überstehen normales Neuladen/Abmelden; laufende Mitschnitte bestehen nur
+in der Sitzung. SavedVariables beim Aktualisieren behalten. Die Verlaufsbefehle
+sind lokal geprüft; der Spielmitschnitt zeigt den neuen Berichtskopf.
+
+Zwei getrennte Speicher halten je Aufzeichnung höchstens 256 Zeilenübergänge und
+256 Zauberentscheidungen; viele Zauber verdrängen keine Kameraereignisse.
+D1/D2 stehen anonym für Gegner, C1/C2 für Versuche. Selected ist die Zielaufnahme
+beim Senden und kein Nachweis des Empfängers. Assigned ist die Modellzuordnung.
+ESTIMATE bezeichnet einen als Zeitschätzung übernommenen Versuch, keinen Treffer.
+Namen, vollständige Kennungen, HP, Aura-Inhalte und Treffer-/Fehlschlagdaten werden
+nicht gespeichert. Keine zusätzlichen Aura-Abfragen, kein Zurücklesen nativer
+Anzeigen und keine regelmäßige Abtastung.
+
+Tests/ bleibt außerhalb der TOC. Erwartungen für Wegdrehen, Tod, Anordnung,
+Prioritäten und Wartungsgrenzen erhalten: Gemerkte Anzeigen dürfen keine
+unbeobachteten Messwerte hinzufügen.
+
+NÄCHSTE SCHRITTE
+
+Experimentelle Vorschau und offene Anzeigefälle weiter gezielt im Spiel prüfen. Eine verlässliche
+Planung aus tatsächlichen Auren bleibt von zugänglichen Clientdaten abhängig.
+Restlebenszeit und Überarbeitung des Fluchwächters sind zurückgestellt.
+ROADMAP.txt hält diese Vorhaben fest.
+
+AKTUALISIERUNG UND FEHLERMELDUNGEN
+
+Vor dem Ersetzen des Addonordners den Client schließen. SavedVariables
+behalten, damit Einstellungen und Kämpfe erhalten bleiben. Alter unbekannter
+Schaden wird nicht nachträglich erfunden oder zugeordnet. FULL/minimal,
+Grafiken und Umblättern sind unverändert. Bei unerwarteten Ergebnissen zeigt
+/cf diagnose den Status der letzten Aufzeichnung. Nach normalem Beenden
+des Spiels liegt die gespeicherte Datei hier:
+  _classic_beta_/WTF/Account/<Konto>/SavedVariables/CursiveForever.lua
+
+Vollständige Historie: VERSIONSHISTORIE.txt.

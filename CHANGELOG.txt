@@ -1,0 +1,542 @@
+Cursive Forever - CHANGELOG
+============================
+
+Latest client reference from previous in-game checks: WoW Forever 1.60.1 (70450), Release x64 — client build 15 October 2026.
+
+English release notes.
+Deutsch: see VERSIONSHISTORIE.txt
+Manuals: README.txt / LIESMICH.txt
+Created by Leandarh Valinor
+
+1.13.0 – 01.11.2026 – RELEASE: Cursive Character Pack
+- Jaina is now supplied by the optional Cursive Character Pack, keeping the main addon download much smaller.
+- Install and enable Cursive Character Pack alongside Cursive to use Jaina. Existing artwork selections are retained.
+- The artwork chooser explains missing, disabled or incompatible packs. Grimoire and Minimal remain available without the pack.
+
+1.12.0 – 01.11.2026 – RELEASE: Jaina
+- Animated Jaina options artwork with flowing water, an ice crystal, gentle breathing and moving hair. Animation can be switched off.
+- Integrated navigation with mouseover lighting, compact menu columns and matching ice-blue controls. Full / Minimal stays directly accessible.
+- Choose menu artwork in General & help offers Automatic and manual class/appearance choices. Female mages use Jaina automatically; Jaina can also be selected on other classes.
+- Fixed dark Version & status text in Jaina, restored the gold close button after switching to Minimal, and updated design help to describe the selected artwork.
+- Includes the beta menu fixes for graphic priority arrows, grimoire slider readability and foreground layering in the layout workshop.
+
+1.12.0-beta5 – 01.11.2026 – BETA: Jaina
+- Jaina’s two menu columns sit closer together, leaving more space around the ice and water decorations.
+- Sliders, selection controls, arrows, buttons and tooltips use ice-blue accents to match Jaina, including mouseover highlighting.
+
+1.12.0-beta4 – 01.11.2026 – BETA: Jaina
+- The pale inner water volume above Jaina’s hand is now partly transparent, reducing the solid white area during the water phase.
+- The crystal phase, character detail and the flicker correction remain in place.
+
+1.12.0-beta3 – 01.11.2026 – BETA: Jaina
+- Fixed intermittent disappearance of Jaina and the menu frame during animation. The complete current picture remains visible while the next picture loads.
+- Pausing the animation keeps the current picture; resuming and switching menu designs retain the integrated navigation and hover lighting.
+
+1.12.0-beta2 – 01.11.2026 – BETA: Jaina
+- Jaina now uses the complete transparent animation loop, including flowing water, the ice crystal, hair and gentle breathing.
+- The four main pages sit inside the illuminated artwork and light up on mouseover.
+- Full / Minimal remains visible below the navigation. Jaina no longer uses the hanging grimoire selector.
+- Choose menu artwork in General & help opens a separate window for class, Automatic / Female / Male and the animation toggle. Upcoming artwork is marked as planned.
+- Jaina can also be selected on other classes for a preview. Automatic uses Jaina for female mages and the grimoire otherwise.
+
+1.12.0-beta1 – 31.10.2026 – BETA: Jaina & options menu
+- Mages can try Jaina’s water-themed options artwork in Full, with Automatic or Female selection and optional water-light animation. Medivh is marked as coming later.
+- The Full/Minimal selector is back beneath the right-hand bookmarks; German labels now read Voll/Minimal.
+- Grimoire slider values remain readable after changing views, with limit labels below the ornate rails.
+- Priority buttons use clear graphic arrows in both options designs.
+- The Layouts combat notice has its own foreground layer; the underlying settings page stays hidden while the tab is open.
+- Improved spacing and template-name wording in the layout workshop.
+- Priority-marker help explains the reserved focus/target rows when click casting is enabled.
+
+1.11.0 – 31.10.2026 – RELEASE: Refreshed options menu
+- Reorganized minimal options with five tabs, compact dark surfaces and consistent gold controls.
+- Animated previews and saved layouts are available in their own tab; layouts load or import with one click.
+- Priority arrows are now drawn symbols, readable regardless of the selected font.
+- Close buttons use a larger, centered cross; button labels are centered.
+- The Layouts tab explains its combat pause and automatically restores its controls after combat, retaining unfinished inputs.
+- Fixed opening options through the minimap or chat command and the foreground layers of preview windows.
+
+1.11.0-beta3 – 30.10.2026 – BETA: Optionsmenü
+- Fixed an error that could abort opening options through the minimap or chat command.
+- The same texture correction covers previews, layouts and switching between FULL and minimal.
+
+1.11.0-beta2 – 30.10.2026 – BETA: Optionsfenster und Vorschau
+- Preview windows use stable foreground layers when opened repeatedly.
+- Opening options dismisses a floating preview so the menu remains accessible.
+- Preview and layout dialogs use flat gold buttons in both menu designs.
+- The layout command opens correctly without an embedded menu host.
+
+1.11.0-beta1 – 30.10.2026 – BETA: Schlichtes Optionsmenü
+- Minimal options use consistent dark surfaces, fine gold borders and compact controls.
+- Preview and layout templates have their own tab.
+- Gold-framed tooltips include a side pointer; planned features appear as inactive hints.
+- Slider values are aligned to the right of their labels.
+
+1.10.1 – 30.10.2026 – RELEASE: Layout-Einstellungen
+- Sliders, percentages and checkboxes immediately reflect loaded, imported and restored layouts.
+- Refreshing the settings preserves saved size and transparency values exactly.
+
+1.10.0 – 30.10.2026 – RELEASE: Layoutvorlagen
+- Load, import and restore layouts with one click each.
+- Templates are checked automatically; invalid imports leave settings unchanged.
+- Layout changes apply immediately and update the running preview.
+- Only changed icon shading still requires an optional UI reload.
+
+1.10.0-beta2 – 30.10.2026 – BETA: Window layering
+- The layout workshop and preview appear fully above settings, without overlapping controls from other windows.
+- The running preview remains above the workshop when reopened.
+
+1.10.0-beta1 – 30.10.2026 – BETA: Layout-Werkstatt
+- Separate display preview with 1–10 enemies and fictional DoT timers.
+- Save named layouts, export them and review imports before applying.
+- Apply outside combat with a UI reload; previous layout remains available.
+- Click casting and enemy tracking unchanged.
+
+1.9.5 – 29.10.2026 – RELEASE: Compact settings
+- More compact options pages reduce gaps between sections and spells, with less scrolling.
+- Hidden options no longer reserve empty space; help text uses the space it needs.
+
+1.9.4 – 27.10.2026 – RELEASE: Click-casting preparation
+- Reduced repeated background work for click casting outside combat.
+- The in-game changelog now displays the same complete release history as the included changelog files.
+
+1.9.3 – 24.10.2026 – RELEASE: Maintenance
+- No changes to Forever features, target/focus arrangement or saved preferences.
+
+1.9.2 – 24.10.2026 – RELEASE: Compact main icons and combat entry
+- Standard keeps up to eight selected main icons on one line. Adding a fifth or more makes the window wider instead of taller, in both fixed and expiration order.
+- The Main tooltip explains the extra width.
+- An already displayed, still-selected target remains visible as combat begins while combat and threat data catch up, for example during the first Shadow Bolt flight.
+
+1.9.2-beta3 – 24.10.2026 – BETA: Target continuity at combat start
+- An already displayed, still-selected target remains visible as combat begins while combat and threat data catch up, for example during the first Shadow Bolt flight.
+
+1.9.2-beta2 – 24.10.2026 – BETA: Compact main icon row
+- Standard keeps up to eight selected main icons on one line; selecting a fifth or more makes the window wider instead of taller. Applies to fixed and expiration order.
+- The Main tooltip explains the extra width. Extra effects keep their smaller grid.
+- Companion build for the saved-settings fix in the new game editions.
+
+1.9.2-beta1 – 24.10.2026 – BETA: Additional Cursive editions
+- Companion beta for the new Retail, MoP Classic and Classic Era editions.
+- Existing Forever features and settings remain available.
+- /cfclient identifies the addon edition and client build for feedback.
+
+1.9.1 – 22.10.2026 – RELEASE: Utility curses as main effects
+- Curse of Weakness, Tongues, Recklessness, Exhaustion and the Elements can now be selected as Main under Spells & alerts in all four views. Thanks to thermanshs for the suggestion.
+- Selected curses use the normal main-effect order and count toward the eight main slots. They no longer also appear in the small curse or extra-effect display.
+- With fixed positions and Click to cast enabled, learned main curses can be cast on focus or target like other main spells. They stay visible when extra icons are disabled.
+- Existing selections are preserved. The Raid Curse Watcher remains independently configured.
+
+1.9.0 – 21.10.2026 – RELEASE: Click casting on focus and target
+- Left-click a learned main spell to cast it on your focus or current target. Works with fixed positions in Standard, Matrix, DoT bars and Health bars, including empty slots. Thanks to Myia for the suggestion.
+- Focus stays at the top: Standard and Health bars show Focus below the portrait; Matrix and DoT bars use a larger F beside it. The current target follows with the familiar target highlight. Other tracked enemies remain display-only.
+- Switching focus or target refreshes that row’s effects, including extra effects and utility curses. When focus and target are the same enemy, both rows update together.
+- Enemies remembered outside your view no longer inherit another enemy's raid marker or marker-based sorting priority.
+- When focus and target are the same enemy, both role rows stay visible, just like the normal target and focus frames. Suggestions count that enemy once.
+- Click casting is enabled by default for fixed layouts and can be disabled under Spells & alerts. Expiring first retains the ordinary display.
+- While click casting is active, change layout, size, position and window visibility outside combat. The window still follows its saved out-of-combat visibility setting.
+- Focus casts use the identified recipient in suggestions and fight records. Ambiguous recipients remain unconfirmed; a completed cast is still not proof of a hit.
+
+1.8.0 – 20.10.2026 – RELEASE: Clearer settings and one shared spell list
+- Options now has four clearly named pages: Display, Spells & alerts, Review, and General & help. Both the grimoire and minimal design use this organization.
+- Display brings together view selection, sorting, size, transparency, header, frames, extra icons and out-of-combat visibility.
+- Spells & alerts combines spell filters, main slots and priority in one list. Solo, dungeon and raid filters stay separate. /cf dots and /cf filters open this page directly.
+- Execute has four direct choices: Automatic, Below 35%, Below 20% and Off. Suggestions, raid-marker priority and the Curse Watcher are grouped alongside it.
+- Existing settings are retained. Unavailable choices are dimmed with explanations, and longer pages can be scrolled.
+- Curse of the Elements can now be enabled in the spell list, uses the shared utility-curse place and can be assigned in the Curse Watcher.
+- Demonic Brand and Shadow Vulnerability (Improved Shadow Bolt) can now be chosen as main effects or extra icons. Thanks to thermanshs for these spell requests.
+
+1.7.8 – 20.10.2026 – RELEASE: Compact Standard rows and display options
+- Standard with Expiring first no longer reserves an empty second large icon row when extra icons are enabled. Up to four selected main effects fit in one row; five to eight retain their second row.
+- Main effects keep their expiration order. Up to four additional effects use the compact two-by-two area, matching the fixed-order view.
+- Switching between fixed and expiration order waits when necessary to preserve running timers on enemies outside your view.
+- Adjust Duration sweep opacity from 0–100% in DoT layout (default: 58%). Apply the change outside combat with Apply and reload UI. Thanks to Myia for the suggestion.
+- Add Hide window out of combat under Combat display, off by default. The tracker returns when combat starts unless manually hidden; Options remain accessible.
+
+1.7.7-beta1 – 20.10.2026 – BETA: Duration sweep opacity and combat visibility
+- Adjust Duration sweep opacity from 0–100% in DoT layout. The current 58% remains the default. Thanks to Myia for the suggestion.
+- Apply a changed sweep opacity with Apply and reload UI while out of combat. It affects the dark veil on icons; Matrix numbers and DoT bars keep their appearance.
+- Add Hide window out of combat under Combat display, off by default. The entire tracker returns when you enter combat; manually hiding it still takes precedence. Options and other windows remain accessible.
+- The requested expiration glow is not included in this beta.
+
+1.7.6 – 20.10.2026 – RELEASE: Frameless tracking and clearer target selection
+- The visible window header stays fully opaque when tracker transparency is increased.
+- Enable extra icons and Hide frame are available in all four views. Hiding extra effects and the separate utility curse makes the tracker narrower; main DoTs, raid markers and Execute indicators remain visible.
+- Hide frame removes the background, outer frame and row borders with less outer padding. A green bracket on the left marks your selected enemy in every frameless view.
+- In Health bars, the row-height slider now changes the visible health bar height as well as row spacing. Text and icons keep their size; minimum dimensions preserve readability. At 100%, the familiar layout is retained.
+- Extra icons start enabled and frames remain visible by default. The header can still be switched independently.
+
+1.7.6-beta1 – 20.10.2026 – BETA: Optional frames and extra icons
+- The visible window header stays fully opaque when tracker transparency is increased.
+- New shared options for Standard, Matrix, DoT bars and Health bars: Enable extra icons (on by default) and Hide frame (off by default).
+- Disabling extra icons hides additional effects and the separate utility curse, reclaiming their space. Main DoTs, raid markers and Execute indicators remain visible.
+- Hide frame removes the window background, outer frame and row borders, with less outer padding. The header remains independently switchable.
+- In Standard with Expiring first, changing extra icons may wait until an enemy outside your view can be refreshed or combat ends, preserving its running timers.
+
+1.7.5 – 19.10.2026 – RELEASE: More flexible tracker sizing
+- The main tracker can now be scaled down to 40%, with a range of 40–130% in 5% steps.
+- Adjust width and row height independently for Standard, Matrix, DoT bars and Health bars. Icons and text keep their proportions; space needed for the contents limits how far each dimension can shrink.
+- Each view remembers its dimensions and can reset them to 100%. Your saved overall scale is retained; new settings start at 100%.
+
+1.7.4 – 18.10.2026 – RELEASE: Clearer sorting controls
+- DoT layout now shows two direct choices under Order: Fixed order / Expiring first. The active choice stays visible; tooltips explain both options.
+- Health bars now follows the same sorting choice as Standard: keep effects in fixed positions or show the effects with the shortest remaining time first.
+- Matrix and DoT bars keep your configured fixed effect order. Your saved sorting preference is retained.
+
+1.7.3 – 18.10.2026 – RELEASE: Health bars view
+- New fourth view, requested by thermanshs: portrait and raid marker on the left, a large health bar with enemy name, current/maximum HP and percentage in the middle, and effect icons with countdowns on the right.
+- Four direct choices: Standard / Matrix / DoT bars / Health bars. The previous Bars view is now called DoT bars.
+- Longer enemy names have more room inside the health bar without increasing window width or row height.
+- Main effects follow your priority. Four additional effects, your utility curse and Execute swords remain available. Select at least one main slot in DoT layout.
+
+1.7.3-beta1 – 18.10.2026 – BETA: Health bars view
+- New fourth view, requested by thermanshs: portrait and raid marker on the left, a large health bar with enemy name, current/maximum HP and percentage, and effect icons with countdowns on the right.
+- Choose Standard / Matrix / DoT bars / Health bars directly. The existing Bars view is renamed DoT bars for clarity.
+- Main effects follow your chosen priority. Four additional effects, your utility curse and Execute swords remain visible. Select at least one main slot in DoT layout.
+
+1.7.2 – 18.10.2026 – RELEASE: Bars view and tracker transparency
+- New Bars view, requested by BenTheMan: DoT bars grouped by enemy, in your chosen priority order, with countdowns.
+- Choose Standard, Matrix or Bars directly in the options. Hide spell names in Bars to reduce width; additional effects, utility curses and raid markers remain visible.
+- Bars always includes a health bar with HP percentage: left at 70% or above, right below 70%. Standard and Matrix keep their saved health display choice.
+- New 0–80% transparency slider affects only the main tracker window.
+- Shorter window title retains the author credit without increasing window size.
+- Optional action suggestions remain experimental and off on a fresh installation. They assume unlimited enemy life; cast completion does not confirm a hit.
+
+1.7.2-beta3 – 18.10.2026 – BETA: shorter tracker title
+- Remove “created” from the tracker title to fit narrow Bars windows, retaining version and author without enlarging the window.
+
+1.7.2-beta2 – 18.10.2026 – BETA: restore Bars health bars; tracker-only transparency
+- Fix missing health bars in Bars when Percent was previously selected. Standard and Matrix keep their saved health display choice.
+- Restrict the transparency slider to the main tracker; Options, archive, Performance and diagnostic windows remain opaque.
+
+1.7.2-beta1 – 18.10.2026 – BETA: Bars view and window transparency
+- New Bars view, requested by BenTheMan: up to eight main effects per enemy, in priority order, with duration bars and countdowns.
+- Choose Standard, Matrix or Bars directly; optionally hide spell names to save width. Additional effects sit around the portrait. HP percentages change sides inside the health bar at 70%.
+- Add a saved 0–80% transparency slider for Cursive windows.
+
+1.7.1 – 17.10.2026 – MAINTENANCE: client 1.60.1 (70450)
+- Update the client reference to WoW Forever 1.60.1 (70450), Release x64, built 15 October 2026. User-observed functions continued working; no feature or layout changes.
+
+1.7.0 – 16.10.2026 – RELEASE: compact Matrix, refined Standard and corrected Curse Watcher
+- Release Matrix alongside Standard: shared spell columns, compact enemy rows, health inside bars and Execute swords at the portrait. Support up to eight main effects, including Wrack.
+- Narrow Standard spacing. Both views show four additional effects in two rows of two; keep curses and countdowns inside the target border.
+- Fix the Curse Watcher remaining hidden after replacing the assigned curse with Recklessness or another utility curse. Action suggestions remain optional and experimental; Standard remains the default.
+- Client reference: WoW Forever 1.60.1 (70425), Release x64, built 14 October 2026.
+
+1.7.0-beta6 – 16.10.2026 – BETA: invalidate stale Curse Watcher reminders on curse changes
+- The Curse Watcher warns again when another utility curse, including Recklessness, replaces your assigned curse on that enemy.
+- Changing targets during a cast no longer redirects the reminder update. Failed or unclear attempts do not replace another enemy's reminder; Agony and Doom remain independent.
+
+1.7.0-beta5 – 16.10.2026 – BETA: clear the inner Matrix target border
+- Keep the complete curse countdown and both additional-effect rows inside the gold Matrix target border.
+- Slightly increase Matrix row height when suggestions are hidden; retain icon and font sizes.
+
+1.7.0-beta4 – 16.10.2026 – BETA: four extras and stable Matrix alignment
+- Reduce additional effects to four slots in two rows of two in both views. Standard keeps times below icons; Matrix places times beside them.
+- Fix aura updates restoring Standard portrait, divider and curse positions while Matrix is selected. Improve Matrix border clearance.
+
+1.7.0-beta3 – 16.10.2026 – BETA: compact Matrix rows
+- Make Matrix rows and their shared heading smaller when suggestions are hidden, with smaller portraits and closer time columns.
+- Place health numbers inside bars and Execute swords at the portrait. Preserve both health values in percentage mode and restore the complete Standard layout when switching back.
+
+1.7.0-beta2 – 16.10.2026 – BETA: protect Standard and Matrix initialization
+- Fix oversized rows and utility curses, and Matrix selection failing to change the display.
+- Delay view changes while offscreen effects must be retained. A Matrix display failure no longer disrupts Standard.
+
+1.7.0-beta1 – 16.10.2026 – BETA: Matrix view and narrower Standard
+- Add Standard / Matrix selection. Matrix uses shared spell headings and up to eight fixed effect columns with individual enemy countdowns; Standard remains the default.
+- Narrow Standard by moving portraits toward the frame and reducing equal gaps around the curse divider. Add Wrack to effect selection, alongside the other Warlock DoTs.
+- Delay incompatible view changes while retaining offscreen effects; selecting the current view cancels the pending switch. Client reference: 1.60.1 (70425).
+
+1.6.2 – 16.10.2026 – RELEASE: redesigned, more compact combat display
+- Release the redesigned Standard view: compact, evenly spaced rows with aligned DoTs, timers and Execute hints, plus one utility curse beside the portrait.
+- Show eight additional effects in two rows of four. Remove the redundant side stripe and single-view selector; keep the optional header, author credit and raid markers.
+- Fix Contact & feedback appearing behind Options. Suggestions remain optional and experimental.
+- Client reference updated to WoW Forever 1.60.1 (70425), Release x64, built 14 October 2026; preceding gameplay checks used 70374.
+
+1.6.2-beta5 – 16.10.2026 – Aligned extra effects in two rows of four
+- Align eight additional effects in two rows of four with the main DoTs; both rows fit within the main icons and countdown area.
+- Use one utility-curse slot aligned with the portrait. Reduce row height when suggestions are hidden without widening the window.
+
+1.6.2-beta4 – 16.10.2026 – Current portrait view becomes Standard
+- Make the accepted portrait view Standard and migrate previous tracker layouts to it. Remove Compact and the old Minimal choice; FULL/minimal still selects the Options design.
+- Remove the redundant green/gold side stripe while retaining the target border, portrait ring and raid markers.
+
+1.6.2-beta3 – 16.10.2026 – Feedback dialog foreground fix
+- Keep Contact & feedback in front of the options book. Clicking its background no longer activates controls underneath; link copying, Escape and the close button remain available.
+
+1.6.2-beta2 – 16.10.2026 – Utility curses beside the portrait
+- Move utility curses to a narrow two-row column beside the portrait; add width only when this display is enabled.
+- Reduce the space below enemy rows and raise Execute! toward the countdown baseline, preserving icon and font sizes.
+
+1.6.2-beta1 – 16.10.2026 – More compact vertical spacing
+- Reduce upper and lower row margins, keeping all enemy rows evenly spaced and main icons and text unchanged.
+- Align suggestion icons and Execute with the main icon line. Use a smaller portrait in single-line rows with portrait curses so their timers fit inside the frame.
+
+1.6.1 – 15.10.2026 – Execute hint and optional window header
+- Release Execute hints with four modes: Automatic (default), Below 35%, Below 20%, Off. Crossed swords and Execute! appear beneath health; the hint marks a health range, not cast readiness.
+- Add General > Show window header, following AbelBeja's suggestion. Hide the whole title bar to save height, or keep its author credit; the unlocked background remains draggable.
+- Include shared DoT priority, estimated first applications, compact rows and matching death notifications. Suggestions remain experimental and off by default. Manual Execute thresholds were checked on client 1.60.1 (70374).
+
+1.6.1-beta5 – 15.10.2026 – Execute hint and optional window header
+- Add Execute hints: Automatic, Below 35%, Below 20%, Off. Automatic checks relevant learned abilities or talents for Warlock, Rogue, Warrior, Paladin and Priest; manual thresholds work on any class.
+- Show crossed swords and Execute! beneath health without increasing row height. This indicates a health range, not a ready proc or cast.
+- Add an optional window header; hiding it also shrinks the empty window. Author details and a copyable CurseForge feedback link appear under Help & info.
+
+1.6.1-beta4 – 15.10.2026 – Death events for remembered enemies
+- Matching death notifications now remove remembered enemies and their suggestions even without a visible nameplate. Unknown deaths do not remove unrelated rows; repeated notifications are harmless.
+- Keep living enemies when turning away. Offscreen removal requires a matching death notification; it cannot be guaranteed when the client supplies none.
+
+1.6.1-beta3 – 15.10.2026 – Compact, evenly spaced rows
+- Use equal space above main icons and below their countdowns, reducing row height and keeping enemies evenly spaced.
+- Move additional effects into two small rows on the right, reusing spare width first. Portrait curses and their countdowns fit within the shorter rows.
+
+1.6.1-beta2 – 15.10.2026 – Shared DoT order and aligned rows
+- Use the saved DoT order as the shared suggestion priority; edit both through DoT layout.
+- Align portraits, main icons and suggestions, with times below and status labels above.
+- Show Apply for first applications and Casting during an attempt instead of a misleading future renewal countdown.
+
+1.6.1-beta1 – 15.10.2026 – Initial applications in the experimental preview
+- Suggest estimated first applications when combat is tracked from its start. Immolate can fill the time before later higher-priority renewals.
+- Mark these assumptions with ~; incomplete combat history remains unknown. Running casts reserve their time, while interruptions release the suggestion. Cast completion remains unconfirmed.
+
+1.6.0 – 15.10.2026 – Display release with an optional experimental preview
+- Release health bars or percentages, configurable fixed DoT positions, portrait curses and the FULL/minimal options designs. Health bars are the default, following thermanshs's suggestion.
+- Retain remembered enemy rows and last health when turning away; matching deaths remove them. Without a reachable matching enemy, aura icons may temporarily disappear and unseen deaths may remain until confirmed.
+- Optional Warlock suggestions show two global actions and up to two per enemy. They remain experimental and off by default, assume unlimited enemy life, and do not confirm hits. Right-click an unconfirmed spell label to correct an observed miss.
+- Keep five saved tracker reports via /cftrace 1 through 5. Client reference: WoW Forever 1.60.1 (70374).
+
+1.6.0-experimental9 – 15.10.2026 – Reliable recording history (EXPERIMENTAL)
+- Keep five completed tracker reports with session number, local start time and duration. Use /cftrace 1 through 5; /cftrace shows the active or latest report.
+- Repeating /cftrace on no longer resets an active recording. Reports started mid-fight are marked incomplete.
+
+1.6.0-experimental8 – 14.10.2026 – Terminal death check and verified fallback (EXPERIMENTAL)
+- Improve matching death checks after nameplate loss. Try another matching target, including pet target, before discarding an unusable aura display.
+- Rows and last health remain when turning away, but aura icons may still disappear without a reachable matching enemy.
+
+1.6.0-experimental7 – 14.10.2026 – Restore established tracker display (EXPERIMENTAL)
+- Restore the previous health display when turning away and remove the Out of view overlay.
+- Restore aura updates through the selected enemy when its identity matches the remembered row. Retained HP is the last seen value, not a fresh measurement.
+
+1.6.0-experimental6 – 14.10.2026 – Cast-association diagnosis (EXPERIMENTAL)
+- Add anonymized cast-association decisions to /cftrace to investigate incorrect suggestions without recording names or raw identities.
+- The reported fresh-Corruption/due-now discrepancy remains unresolved; this update adds diagnosis, not hit detection.
+
+1.6.0-experimental5 – 14.10.2026 – Early aura refresh and tracker trace (EXPERIMENTAL)
+- Preserve existing countdowns when an aura refresh occurs just before the nameplate disappears.
+- Add automatic tracker reports: /cftrace opens the latest fight for copying; on, off and clear control recording. Reports omit names, health and aura contents.
+
+1.6.0-experimental4 – 14.10.2026 – Restore camera-loss behavior (EXPERIMENTAL)
+- Restore retained DoT displays when turning away, including with suggestions disabled. Known estimated suggestions remain in the global priority order and carry ~ when offscreen.
+- Improve reconnection and death cleanup without confusing reused nameplates. An unseen enemy's death still requires confirmation.
+
+1.6.0-experimental3 – 14.10.2026 – Unknown-state label Lua error (EXPERIMENTAL)
+- Fix the Lua error when showing the unknown-state label; keep it positioned correctly in all three tracker layouts.
+
+1.6.0-experimental2 – 14.10.2026 – Target-state and preview corrections (EXPERIMENTAL)
+- Remove confirmed dead enemies and their pending suggestions. Unavailable enemies show an unknown state; returning enemies reconnect without inheriting another creature's data.
+- Keep cast history when toggling suggestions. Unknown timers no longer become immediate instructions; green 1 means now, gold 1 later and blue 2 the following action.
+- Right-click the unconfirmed Spell ? label to correct an observed miss, even when it is absent from the next suggestions. Automatic hit recognition remains unavailable. Client reference: 1.60.1 (70374).
+
+1.6.0-experimental1 – 13.10.2026 – Estimated action suggestions (EXPERIMENTAL)
+- Add an optional experimental Warlock preview for Agony, Corruption and Immolate: two suggestions per enemy plus global next/following actions.
+- Prioritize due spells across enemies while allowing for cast time and the global cooldown. Repeated high-priority applications may precede a lower-priority spell; no enemy-lifetime prediction is used.
+- Configure via /cfexp or the DoT layout control. Estimates use ~ and unknown applications ?. Correct misses with Alt-right-click or /cfexp miss. Normal selected-target casts are required; mouseover/focus macros and automatic hit confirmation are unsupported.
+
+1.6.0-beta2 – 13.10.2026 – Grimoire spacing (test version)
+- Rearrange the grimoire Combat display page so DoT layout controls no longer overlap the creator signature.
+
+1.6.0-beta1 – 13.10.2026 – Flexible DoT layout (test version)
+- Choose expiration order or up to eight fixed DoT positions via /cf dots. Select and reorder effects per character; other enabled effects remain visible in a smaller strip.
+- Show optional personal utility curses below portraits in Compact and Minimal, enabled by default for Warlocks. Existing Solo/Group/Raid filters still apply.
+- Empty fixed slots are reserved display positions, not instructions to refresh. The Curse Watcher remains independent.
+
+1.5.0-beta3 – 13.10.2026 – Health bars by default
+- Make health bars the default for new or previously unset displays, following thermanshs's suggestion. Keep existing Bar or Percent preferences and allow switching at any time.
+
+1.5.0-beta2 – 13.10.2026 – In-game test fixes
+- Fix the Lua error when switching health bars to percentages during combat on client 1.60.1 (70338).
+- Restore action-button colors immediately after switching FULL to minimal, without requiring a mouse hover.
+
+1.5.0-beta1 – 13.10.2026 – Community-requested health display
+- Add a health-bar alternative requested by thermanshs. Switch between Percent and Bar under Combat display; the choice is saved and applies immediately.
+- Support all tracker layouts and both Options designs, keeping green/yellow/red health colors. Percent remains the initial default in this beta.
+
+1.4.7-beta1 – 12.10.2026 – Robustness test version
+- Handle unreadable client data more safely; unknown player alive-time stays unknown while names, health and raid markers retain their display.
+- Remove stale marker and curse-reminder entries during extended play. Target changes clear ambiguous reminders while preserving active targets and saved fights.
+
+1.4.6 – 12.10.2026 – Maintenance release
+- Release the maintenance fixes, including separate fight damage, correct unknown values, reliable encounter separation and clearer curse reminders.
+- Fix false zero coverage beside unassigned casts and improve matching of fights whose damage recording starts early. Client-blocked aura timing remains unavailable.
+
+1.4.6-beta1 – 12.10.2026 – Client-test follow-up
+- Fix false zero coverage and full-gap displays on named enemies when a cast target is unknown, including when viewing older archives.
+- Improve matching of damage sessions that begin before combat starts. Add concise session information to /cf diagnose to help explain unavailable damage.
+
+1.4.5 – 12.10.2026 – Maintenance release
+- Keep damage with its own fight; distinguish unknown values (—), partial totals (≥) and measured zero. Ambiguous casts remain unassigned.
+- Pause coverage and calculated ticks while enemies are unobserved; returning enemies do not fill the gap retroactively.
+- Give consecutive bosses separate records and count long frame pauses in fight duration.
+- Show CURSE UNCONFIRMED or REMINDER EXPIRED instead of falsely reporting CURSE MISSING when the client blocks aura data.
+
+1.4.4 – 11.10.2026 – Release
+- Release four Options pages: General, Combat display, Review and Help & info. FULL shows Gul’dan's dark grimoire with page turns; minimal offers the same settings in a simple window.
+- Include filters for all nine classes, up to five selectable Raven cards, per-character fight archives and clear Client restriction / Unconfirmed labels.
+- Test environment: WoW Forever Beta 1.60.1 (70338), x64, built 9 October 2026.
+
+1.4.4-beta – 11.10.2026
+- Fix mirrored titles and creator text during forward and backward page turns. Pages remain opaque and the inscription follows the correct page face.
+- Darken Gul’dan's face, hands and armor while retaining the fel glow.
+
+1.4.3-beta – 11.10.2026
+- Make the creator inscription turn with the right page and disappear beneath the returning left page instead of remaining stationary.
+
+1.4.2-beta – 11.10.2026
+- Restore the complete grimoire artwork, including hood, shoulders and cloak edges. Darken the parchment and integrate Cursive / Forever into the page headings.
+- Add an illuminated FULL/minimal clasp and move the runic creator signature onto the right page without overlapping controls.
+
+1.4.1-beta – 11.10.2026
+- Fix Lua errors when first opening the grimoire and when reopening Options after the interrupted initialization.
+
+1.4.0-beta – 11.10.2026
+- Add FULL as the default Options design: Gul’dan's grimoire, four chapters, horizontal sliders and forward/backward page turns. Keep minimal as an alternative.
+- Save the design choice independently of the tracker layout. Add /cf grimoire, /cf full and /cf minimal, with a permanent creator signature.
+
+1.3.3-beta – 11.10.2026
+- Place checkbox captions beside their controls and keep the saved-settings note clear of corner ornaments.
+- Clear tab hover highlights when the pointer leaves or another page is selected.
+
+1.3.2-beta – 11.10.2026
+- Organize Options into four tabs with aligned controls and consistent button sizes.
+- Shorten the window and scale it to fit the screen, independently of tracker and Performance scaling. Apply the brown/gold style to close buttons.
+
+1.3.1-beta – 11.10.2026
+- Replace missing arrow symbols with localized Up / Down buttons for card ordering. Remove overlapping decoration from these small controls.
+
+1.3.0-beta – 11.10.2026
+- Add shared Solo/Group/Raid filters for all nine classes, including learned spell ranks; keep existing Warlock and Druid choices.
+- Use /cf cards to select and reorder up to five Raven cards per character, hide unused cards or restore defaults. Hidden effects remain recorded; older fights retain their values.
+- Add Consecration, Hunter trap and Deep Wounds damage support. Area effects show damage totals without inferred target coverage or tick history.
+
+1.2.13 – 11.10.2026
+- Release the cleaned-up status report and archive handling; fights and their target/DoT details remain separate and survive /reload.
+- Client-blocked applications remain labelled Client restriction with unavailable timing values, not misses. Client reference: WoW Forever Beta 1.60.1 (70338).
+
+1.2.13-beta – 11.10.2026
+- Combine diagnostics into one compact, copyable /cf diagnose report; keep older diagnostic commands as aliases and remove debug chat.
+- Simplify the curse preview controls. Retain existing fights and Client restriction labels; blocked aura timing remains unavailable.
+
+1.2.12-beta – 11.10.2026
+- Avoid repeated errors when the client blocks aura data, while retaining other available checks.
+- Show Client restriction on affected cards and details, including older compatible records. Damage and cast counts remain visible; blocked timing stays unknown. Client reference: 1.60.1 (70338).
+
+1.2.11-beta – 11.10.2026
+- Make /cf auradiag scrollable, refreshable and copyable, with clearer explanations of unavailable application data and support for archived fights.
+- Make the DoT detail background fully opaque so underlying cards no longer show through.
+
+1.2.10-beta – 10.10.2026
+- Stop treating empty aura results as failed applications. Unconfirmed uptime, refresh and tick values show — instead of false zeroes; damage and cast counts remain visible.
+- Improve confirmation of readable applications and add /cf auradiag to explain uncertainty.
+- Place the raven summary on an ornamental plaque, hidden in compact mode. Older archived figures are not rewritten.
+
+1.2.9-beta – 10 Oct 2026
+- Keep opening casts with their target and time when combat begins. Separate completed cast attempts from application confirmation and show unclear results as Unconfirmed.
+- Opening Performance closes Options. Selected dead enemies no longer recreate 0-HP rows out of combat.
+- Client reference: WoW Forever Beta 1.60.1 (70338), x64, built 9 October 2026.
+
+1.2.8 – Release – 07 Oct 2026
+- Release the Performance Monitor with class effect cards, damage, multi-target coverage and cast/refresh details. Keep up to 30 eligible fights per character.
+- Tick-loss figures for Agony, Immolate and Corruption are calculated estimates, separate from measured damage. Client reference: WoW Forever Beta 1.60.1 (70245), x64.
+
+1.2.8-beta - 07 Oct 2026
+- Click an effect card for enemy-filtered coverage, gaps and a newest-first cast/refresh timeline; older fights without details remain readable.
+- Add calculated overwritten-before-first-tick, discarded progress and lost-tick figures for Agony, Immolate and Corruption. These are separate estimates, not measured damage loss.
+- Correct lower-rank Corruption durations. Client reference: WoW Forever Beta 1.60.1 (70245), x64.
+
+1.2.7-beta - Added a separate Performance window scale: 50–120% in 5% steps, with 100% as the default. The live tracker keeps its own scale.
+- Save Performance window size and position per character, shared by compact and expanded views. Add a live size preview, Center position and 100% reset controls.
+- Client reference updated to WoW Forever Beta 1.60.1 (70245), x64.
+
+1.2.6-beta - 07 Oct 2026
+- Add a bronze/gold information plaque with green crystals, fitted to both Performance views without covering artwork or encounter details.
+- Center the Raven Archive heading and fight count on separate lines with more space above the list. Client reference: 1.60.1 (70235), Beta x64.
+
+1.2.5-beta - 07 Oct 2026
+- Restore the clipped right-wing feather tip in the large Performance view.
+- Move version, author and client details onto a dark surface clear of feathers and chains. Client reference: 1.60.1 (70235), Beta x64.
+
+1.2.4-beta - 06 Oct 2026
+- Show the complete raven and both wings in compact mode, keeping controls and encounter text clear.
+- Remove the rectangular background outside the ornate archive button. Client reference: WoW Forever 1.60.1 (70235), Beta x64, built 5 October 2026.
+
+1.2.3-beta - 06 Oct 2026
+- Restore the missing left wing, original archive chevron and gold-framed close button, with matching clickable areas.
+- Keep compact, expanded and close controls separate; hide and disable the archive button in compact mode.
+
+1.2.2-beta - 06 Oct 2026
+- Remove sample numbers, spell labels and icons from the artwork; fit live values and status messages inside the five ornate cards.
+- Clean up archive decorations and align its list and clear button. Place compact encounter details below the logo.
+
+1.2.1-beta - 06 Oct 2026
+- Use one correctly aligned archive toggle and restore artwork opacity. Decorative frames no longer intercept clicks.
+- Hide the archive control in compact mode and restore its saved per-character state when expanding. Add the current version to Performance.
+
+1.2.0-beta - 06 Oct 2026
+- Rebuild Performance around the raven, wings, chains and five ornate effect cards, showing recorded fight data.
+- Give the Raven Archive independent collapsible artwork and add a compact Performance view; save both choices per character.
+
+1.1.8-beta - 06 Oct 2026
+- Move the Raven Archive into a collapsible side dock with a saved per-character state and fight-count toggle.
+- Add a selected-fight header below the raven and narrow the main Performance canvas.
+
+1.1.7-beta - 06 Oct 2026
+- Improve matching of completed damage readings to the correct fight, with additional session information in /cf perfdiag.
+
+1.1.6-beta - 06 Oct 2026
+- Retain available damage readings during combat as a fallback and improve total-damage recovery. Show spell-level damage information in /cf perfdiag.
+- Fix the Lua error when hovering over archive delete/clear controls.
+
+1.1.5-beta - 06 Oct 2026
+- Retain known raid markers for priority sorting when the client temporarily protects their values. Add marker-cache information to /cf markerdiag.
+
+1.1.4-beta - 06 Oct 2026
+- Reduce raid-marker size and improve its alignment and spacing beside enemy names.
+
+1.1.3-beta - 06 Oct 2026
+- Fix incomplete raid-marker artwork for all eight symbols and adjust marker size and placement.
+
+1.1.2-beta - 06 Oct 2026
+- Improve raid-marker display, enlarge the icons and adjust row placement. Add /cf markerdiag.
+
+1.1.1-beta - 06 Oct 2026
+- Improve total and spell-damage retrieval after combat, including delayed results. Add /cf perfdiag.
+- Calculate open-world and trash coverage across tracked enemy time; rename Boss targets to Targets.
+
+1.1.0-beta - 06 Oct 2026
+- Add the Performance window with class effect cards, available total/spell damage, multi-boss coverage, alive time and death count. Open it through Options or /cf performance.
+- Keep up to 30 fights per character, including wipes, with encounter names, duration and date/time. Set the minimum duration from 15–60 seconds (default 45); delete individual fights or the whole archive.
+- Add raid symbols to enemy rows and selectable marker-based priority, defaulting to Skull.
+
+1.0.1 - 04 Oct 2026
+- Add complete German and English localization with saved Auto / Deutsch / English selection. Auto follows the client language; open windows update immediately.
+- Localize help, warnings, controls and version history without changing spell detection.
+
+1.0.0 - 04 Oct 2026
+- First stable release: DoT/debuff tracking for up to 40 enemies with Standard, Compact and Minimal layouts, health displays, target highlighting and raid-ready filtering.
+- Sort effects by remaining duration, show decimal countdowns below five seconds and visual duration fill. Remember offscreen enemies without transferring another creature's data; remove confirmed dead and unrelated enemies.
+- Include Warlock Solo/Group/Raid filters and Banthers Owl-Corner for Druid effects. Personal Curse Watcher supports Weakness, Tongues and Exhaustion with 3–10 second warnings.
+- Add a nameplate warning showing the actual key binding, movable minimap button, saved positions, frame scaling, three Options themes and in-game history.
+- Tested with WoW Forever 1.60.1 (70170), Beta x64, on 4 October 2026.
+
+Pre-1.0 development milestones
+------------------------------
+0.5.7: Raid Curse Watcher switched to personal cast-based timers.
+0.5.4: Fixed a Lua error that prevented the addon from loading.
+0.5.3: Prevented enemy data from being mixed up and unrelated neutral creatures from appearing.
+0.5.2: Option radio labels fixed and Full theme visually cleaned up.
+0.5.0: Three selectable option-window decoration themes added.
+0.4.x: Fewer errors with restricted combat data, nameplate warnings and raid curse tools.
+0.3.x: Sticky tracking, HP display, three target layouts, Warlock/Druid filters.
+0.2.x: DoT timing, icon fill, sorting, minimap controls and UI refinements.
+0.1.x: Initial Forever beta tracking prototype.

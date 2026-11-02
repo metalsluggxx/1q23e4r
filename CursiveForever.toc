@@ -1,0 +1,41 @@
+## Interface: 16001
+## Title: Cursive Forever
+## Notes: Multi-target personal DoT and debuff tracker.
+## Notes-deDE: Mehrziel-Tracker für eigene DoTs und Debuffs.
+## Version: 1.13.0
+## X-Release-Type: Release
+## X-Client-Reference: WoW Forever 1.60.1 (70450)
+## X-Build-ID: cursive-character-pack-20261101-release
+## X-Live-Validation: Previous Forever baseline
+## Author: Leandarh Valinor
+## OptionalDeps: CursiveCharacterPack
+## IconTexture: Interface\AddOns\CursiveForever\Media\AddonIcon.tga
+## SavedVariables: CursiveForeverDB, CursiveForeverExperimentalDB
+
+BuildInfo.lua
+ClientRuntime.lua
+ClientProfiles.lua
+RetailSpells.lua
+ClassicAuraContainer.lua
+CursiveForever.lua
+WindowTransparency.lua
+TrackerTrace.lua
+DeathEvents.lua
+ExecuteIndicator.lua
+TrackerSizing.lua
+TrackerAppearance.lua
+AuraLayout.lua
+ExperimentalPlanner.lua
+ExperimentalPreview.lua
+OptionsGrimoire.lua
+MatrixView.lua
+BarsView.lua
+HealthbarView.lua
+OptionsPages.lua
+ClickCasting.lua
+ClientFoundation.lua
+LayoutTemplates.lua
+LayoutWorkshop.lua
+MinimalOptions.lua
+CharacterPack.lua
+OptionsArtwork.lua

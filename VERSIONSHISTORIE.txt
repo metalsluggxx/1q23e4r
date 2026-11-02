@@ -1,0 +1,673 @@
+Cursive Forever – VERSIONSHISTORIE
+=================================
+
+Zuletzt im Spiel bestätigter Clientstand: WoW Forever 1.60.1 (70450), Release x64 — Client-Build vom 15.10.2026.
+
+Deutsche Versionshistorie. Ältere Einträge beschreiben den jeweiligen damaligen Stand.
+English release notes: CHANGELOG.txt
+Anleitungen: LIESMICH.txt / README.txt
+Erstellt von Leandarh Valinor
+
+1.13.0 – 01.11.2026 – RELEASE: Cursive Character Pack
+- Jaina wird jetzt über das optionale Cursive Character Pack bereitgestellt. Dadurch wird der Download des Hauptaddons deutlich kleiner.
+- Cursive Character Pack neben Cursive installieren und aktivieren, um Jaina zu verwenden. Vorhandene Motivauswahlen bleiben gespeichert.
+- Die Motivauswahl erklärt fehlende, deaktivierte oder inkompatible Pakete. Grimoire und Minimal bleiben ohne Zusatzpaket verfügbar.
+
+1.12.0 – 01.11.2026 – RELEASE: Jaina
+- Animiertes Jaina-Optionsmotiv mit fließendem Wasser, Eiskristall, sanftem Atmen und bewegten Haaren. Die Animation lässt sich ausschalten.
+- Integrierte Navigation mit Hervorhebung beim Darüberfahren, kompaktere Menüspalten und passende eisblaue Bedienelemente. Voll / Minimal bleibt direkt erreichbar.
+- Menümotiv wählen unter Allgemeines & Hilfe bietet automatische und manuelle Klassen-/Darstellungsauswahl. Weibliche Magier verwenden automatisch Jaina; das Motiv ist auch auf anderen Klassen wählbar.
+- Dunkle Texte unter Version & Status bei Jaina korrigiert, den goldenen Schließen-Knopf nach dem Wechsel zu Minimal wiederhergestellt und die Designhilfe auf das gewählte Motiv abgestimmt.
+- Enthält die Menüverbesserungen der Betas für grafische Prioritätspfeile, lesbare Grimoire-Regler und die Vordergrunddarstellung der Layoutvorlagen.
+
+1.12.0-beta5 – 01.11.2026 – BETA: Jaina
+- Die beiden Spalten im Jaina-Menü stehen näher zusammen und lassen mehr Abstand zu den Eis- und Wasserverzierungen.
+- Regler, Auswahlfelder, Pfeile, Schaltflächen und Hinweiskästen passen mit Eisblau zum Jaina-Motiv, einschließlich der Hervorhebung beim Darüberfahren.
+
+1.12.0-beta4 – 01.11.2026 – BETA: Jaina
+- Der helle Wasserkern über Jainas Hand ist jetzt teilweise durchsichtig. Die geschlossene weiße Fläche während der Wasserphase wird dadurch reduziert.
+- Kristallphase, Figurendetails und die Flimmerkorrektur bleiben erhalten.
+
+1.12.0-beta3 – 01.11.2026 – BETA: Jaina
+- Zeitweises Verschwinden von Jaina und des Menürahmens während der Animation korrigiert. Das vollständige aktuelle Bild bleibt sichtbar, während das nächste Bild lädt.
+- Beim Ausschalten der Animation bleibt das aktuelle Bild stehen. Fortsetzen und Designwechsel erhalten die integrierte Navigation und das Aufleuchten beim Darüberfahren.
+
+1.12.0-beta2 – 01.11.2026 – BETA: Jaina
+- Das Jaina-Menü zeigt nun den vollständigen freigestellten Animationsloop mit bewegtem Wasser, Eiskristall, Haaren und sanfter Atmung.
+- Die vier Hauptseiten liegen direkt in den beleuchteten Menüflächen; beim Darüberfahren leuchten diese zusätzlich auf.
+- Voll / Minimal bleibt unter den Menüflächen sichtbar. Die hängende Grimoire-Designwahl entfällt bei Jaina.
+- Unter Allgemeines & Hilfe öffnet Menümotiv wählen ein eigenes Fenster für Klasse, Automatisch / Weiblich / Männlich und den Animationsschalter. Weitere Motive sind als geplant erkennbar.
+- Jaina kann auch auf anderen Klassen gezielt ausprobiert werden. Die automatische Auswahl zeigt Jaina bei weiblichen Magiern, ansonsten das Grimoire.
+
+1.12.0-beta1 – 31.10.2026 – BETA: Jaina & Optionsmenü
+- Magier können Jainas Wassermotiv im vollen Optionsmenü ausprobieren: automatisch oder weiblich, mit optionaler Wasserlichtanimation. Medivh ist für später vorgemerkt.
+- Die Auswahl Voll/Minimal hängt wieder unter den rechten Lesezeichen; die deutsche Beschriftung ist angepasst.
+- Reglerwerte im Grimoire bleiben nach Ansichtswechseln lesbar. Grenzwerte stehen unter den verzierten Leisten.
+- Prioritätsknöpfe verwenden in beiden Optionsdesigns eindeutige Grafikpfeile.
+- Der Kampfhinweis der Vorlagenseite besitzt eine eigene Vordergrundebene. Darunterliegende Optionsseiten bleiben beim geöffneten Vorlagen-Tab verborgen.
+- Abstände und die Beschriftung des Vorlagennamens in der Layoutwerkstatt verbessert.
+- Der Hilfetext zum Prioritätsmarker erklärt die festen Fokus-/Zielzeilen beim Klickzaubern.
+
+1.11.0 – 31.10.2026 – RELEASE: Überarbeitetes Optionsmenü
+- Schlichte Optionen mit fünf Reitern, kompakten dunklen Flächen und einheitlichen goldenen Bedienelementen neu geordnet.
+- Animierte Vorschau und gespeicherte Layouts haben einen eigenen Reiter; Laden und Importieren erfolgen mit einem Klick.
+- Prioritätspfeile werden als Grafiken dargestellt und bleiben unabhängig von der Schriftart lesbar.
+- Schließen-Knöpfe zeigen ein größeres, mittiges Kreuz; Knopftexte sind zentriert.
+- Der Vorlagenreiter erklärt seine Kampfpause und stellt seine Bedienelemente danach automatisch wieder her; begonnene Eingaben bleiben erhalten.
+- Öffnen der Optionen über Minimap oder Chatbefehl sowie die Vordergrundebenen der Vorschau korrigiert.
+
+1.11.0-beta3 – 30.10.2026 – BETA: Optionsmenü
+- Fehler behoben, der das Öffnen der Optionen per Minimap und Chatbefehl abbrechen konnte.
+- Dieselbe Texturkorrektur gilt für Vorschau, Vorlagen und den Wechsel zwischen FULL und minimal.
+
+1.11.0-beta2 – 30.10.2026 – BETA: Optionsfenster und Vorschau
+- Vorschaufenster behalten beim wiederholten Öffnen eine stabile Vordergrundebene.
+- Beim Öffnen der Optionen wird eine schwebende Vorschau geschlossen, damit das Menü erreichbar bleibt.
+- Vorschau- und Vorlagenfenster verwenden in beiden Menüdesigns flache goldene Schaltflächen.
+- Der Vorlagenbefehl öffnet das Fenster auch ohne eingebettete Menüseite korrekt.
+
+1.11.0-beta1 – 30.10.2026 – BETA: Schlichtes Optionsmenü
+- Schlichtes Optionsmenü mit einheitlichen dunklen Flächen, feinen Goldlinien und kompakten Bedienelementen.
+- Eigene Registerkarte für Vorschau und Layoutvorlagen.
+- Goldgerahmte Hinweise mit seitlicher Spitze; geplante Funktionen sind ausgegraut erklärt.
+- Reglerwerte stehen rechts neben ihrer Beschriftung.
+
+1.10.1 – 30.10.2026 – RELEASE: Layout-Einstellungen
+- Regler, Prozentangaben und Checkboxen zeigen nach Laden, Import und Wiederherstellen sofort die übernommenen Layoutwerte.
+- Das Aktualisieren der Einstellungen bewahrt die gespeicherten Größen- und Transparenzwerte unverändert.
+
+1.10.0 – 30.10.2026 – RELEASE: Layoutvorlagen
+- Gespeicherte Layouts laden, importieren und wiederherstellen mit jeweils einem Klick.
+- Vorlagen werden automatisch geprüft; ungültige Importe verändern keine Einstellungen.
+- Layoutwechsel werden direkt übernommen und aktualisieren die laufende Vorschau.
+- Nur eine geänderte Symbolabdunklung benötigt weiterhin ein optionales Neuladen.
+
+1.10.0-beta2 – 30.10.2026 – BETA: Fensterebenen
+- Layoutwerkstatt und Vorschau liegen vollständig vor den Einstellungen; Schaltflächen anderer Fenster überdecken sie nicht mehr.
+- Die gestartete Vorschau bleibt auch beim erneuten Öffnen vor der Layoutwerkstatt.
+
+1.10.0-beta1 – 30.10.2026 – BETA: Layout-Werkstatt
+- Getrennte Ansichtsvorschau mit 1–10 Gegnern und fiktiven DoT-Zeiten.
+- Benannte Layoutvorlagen speichern, exportieren und vor dem Import prüfen.
+- Übernahme außerhalb des Kampfes mit UI-Neuladen; vorheriges Layout bleibt abrufbar.
+- Klickzaubern und Gegnertracking unverändert.
+
+1.9.5 – 29.10.2026 – RELEASE: Kompaktere Einstellungen
+- Kompaktere Optionsseiten: weniger Leerraum zwischen Abschnitten und Zaubern, dadurch kürzere Scrollwege.
+- Ausgeblendete Optionen reservieren keinen ungenutzten Platz mehr; Hilfetexte erhalten Platz entsprechend ihrer Länge.
+
+1.9.4 – 27.10.2026 – RELEASE: Vorbereitung der Klickzauber
+- Weniger wiederholte Hintergrundarbeit bei der Vorbereitung der Klickzauber außerhalb des Kampfes.
+- Der Änderungsverlauf im Spiel zeigt jetzt dieselbe vollständige Versionshistorie wie die mitgelieferten Changelog-Dateien.
+
+1.9.3 – 24.10.2026 – RELEASE: Wartung
+- Keine Änderungen an den Forever-Funktionen, der Ziel-/Fokus-Anordnung oder den gespeicherten Einstellungen.
+
+1.9.2 – 24.10.2026 – RELEASE: Kompakte Hauptsymbole und Kampfbeginn
+- Standard zeigt bis zu acht gewählte Hauptsymbole in einer Reihe. Ab dem fünften Symbol wird das Fenster breiter statt höher, bei festen Plätzen und Ablaufsortierung.
+- Der Hinweis bei „Haupt“ erklärt die zusätzliche Breite.
+- Ein bereits angezeigtes, weiterhin angewähltes Ziel bleibt beim Kampfbeginn sichtbar, während die Kampf- und Bedrohungsdaten noch eintreffen, etwa beim ersten Schattenblitz.
+
+1.9.2-beta3 – 24.10.2026 – BETA: Gegneranzeige beim Kampfbeginn
+- Ein bereits angezeigtes, weiterhin angewähltes Ziel bleibt beim Kampfbeginn sichtbar, während die Kampf- und Bedrohungsdaten noch eintreffen; beispielsweise während der Flugzeit des ersten Schattenblitzes.
+
+1.9.2-beta2 – 24.10.2026 – BETA: Kompakte Hauptsymbolreihe
+- Standard zeigt bis zu acht gewählte Hauptsymbole in einer Reihe; ab dem fünften wächst das Fenster in der Breite statt in der Höhe. Gilt für feste Plätze und Ablaufsortierung.
+- Der Hinweis bei „Haupt“ erklärt die zusätzliche Breite. Zusatzsymbole bleiben im kleinen Raster.
+- Begleitender Stand zur Korrektur zurückgesetzter Einstellungen in den neuen Client-Ausgaben.
+
+1.9.2-beta1 – 24.10.2026 – BETA: Weitere Cursive-Ausgaben
+- Begleitende Beta zu den neuen Cursive-Ausgaben für Retail, MoP Classic und Classic Era.
+- Die vorhandenen Forever-Funktionen und Einstellungen bleiben erhalten.
+- /cfclient zeigt Ausgabe und Clientstand zur eindeutigen Zuordnung von Rückmeldungen.
+
+1.9.1 – 22.10.2026 – RELEASE: Unterstützende Flüche als Haupteffekte
+- Fluch der Schwäche, Sprachen, Tollkühnheit, Erschöpfung und Elemente sind unter Zauber & Hinweise nun in allen vier Ansichten als Haupt auswählbar. Danke an thermanshs für den Vorschlag.
+- Gewählte Flüche folgen der normalen Haupteffektreihenfolge und zählen zu den acht Hauptplätzen. Sie erscheinen nicht zusätzlich am kleinen Fluchplatz oder im Zusatzraster.
+- Mit festen Plätzen und aktiviertem Klickzaubern lassen sich erlernte Hauptflüche wie andere Hauptzauber auf Fokus oder Ziel wirken. Bei ausgeschalteten Zusatzsymbolen bleiben sie sichtbar.
+- Bestehende Auswahlen bleiben erhalten. Der Raid-Fluchwächter wird weiterhin unabhängig eingestellt.
+
+1.9.0 – 21.10.2026 – RELEASE: Zaubern per Klick auf Fokus und Ziel
+- Erlernte Hauptzauber per Linksklick auf Fokus oder aktuelles Ziel wirken. Funktioniert mit festen Plätzen in Standard, Matrix, DoT-Balken und Lebensbalken, auch in leeren Feldern. Danke an Myia für den Vorschlag.
+- Der Fokus steht ganz oben: Standard und Lebensbalken zeigen Fokus unter dem Porträt; Matrix und DoT-Balken verwenden ein größeres F am Porträt. Darunter folgt das aktuelle Ziel mit der vertrauten Zielmarkierung. Weitere Gegner dienen der Anzeige.
+- Beim Ziel- oder Fokuswechsel werden die zugehörigen Effekte einschließlich Zusatzeffekten und unterstützendem Fluch aktualisiert. Zeigen Fokus und Ziel denselben Gegner, aktualisieren sich beide Zeilen gemeinsam.
+- Gemerkte Gegner außerhalb der Sicht übernehmen nicht mehr das Schlachtzugsymbol oder die daraus folgende Sortierpriorität eines anderen Gegners.
+- Sind Fokus und Ziel derselbe Gegner, bleiben beide Bedienzeilen sichtbar – wie bei den normalen Ziel- und Fokusfenstern. Die Vorschläge zählen diesen Gegner nur einmal.
+- Klickzaubern ist für feste Anordnungen voreingeschaltet und unter Zauber & Hinweise abschaltbar. Nach Ablauf behält die gewohnte Anzeige.
+- Bei aktivem Klickzaubern Anordnung, Größe, Position und Fenstersichtbarkeit außerhalb des Kampfes ändern. Das Fenster folgt weiterhin seiner gespeicherten Sichtbarkeitseinstellung für außerhalb des Kampfes.
+- Fokuszauber berücksichtigen den erkannten Empfänger in Vorschlägen und Kampfauswertung. Mehrdeutige Zuordnungen bleiben unbestätigt; ein abgeschlossener Zauber ist weiterhin kein Trefferbeweis.
+
+1.8.0 – 20.10.2026 – RELEASE: Übersichtlichere Optionen und gemeinsame Zauberliste
+- Die Optionen haben vier klar benannte Seiten: Anzeige, Zauber & Hinweise, Auswertung sowie Allgemeines & Hilfe. Grimoire und schlichtes Optionsfenster verwenden dieselbe Ordnung.
+- Anzeige bündelt Ansicht, Sortierung, Größe, Transparenz, Fensterkopf, Rahmen, Zusatzsymbole und Sichtbarkeit außerhalb des Kampfes.
+- Zauber & Hinweise vereint Zauberfilter, Hauptplätze und Priorität in einer Liste. Filter für Solo, Dungeon und Raid bleiben getrennt. /cf dots und /cf filters öffnen diese Seite direkt.
+- Execute bietet vier direkte Auswahlknöpfe: Automatisch, Unter 35 %, Unter 20 % und Aus. Vorschläge, Raidmarker-Priorität und Fluchwächter stehen daneben.
+- Vorhandene Einstellungen bleiben erhalten. Nicht verfügbare Optionen sind mit Erklärung ausgegraut; längere Seiten lassen sich scrollen.
+- Fluch der Elemente ist jetzt in der Zauberliste anwählbar, nutzt den gemeinsamen Platz für unterstützende Flüche und lässt sich im Fluchwächter zuweisen.
+- Dämonisches Brandmal und Schattenverwundbarkeit (Verbesserter Schattenblitz) sind als Haupt- oder Zusatzeffekte wählbar. Danke an thermanshs für diese Zauberwünsche.
+
+1.7.8 – 20.10.2026 – RELEASE: Kompakte Standardzeilen und Anzeigeoptionen
+- Standard mit Nach Ablauf reserviert beim Einschalten der Zusatzsymbole keine leere zweite große Symbolreihe mehr. Bis zu vier gewählte Haupteffekte passen in eine Reihe; fünf bis acht behalten ihre zweite Reihe.
+- Haupteffekte bleiben nach Restlaufzeit sortiert. Bis zu vier Zusatzeffekte nutzen den kompakten Bereich aus zwei Zweierreihen, wie bei fester Reihenfolge.
+- Der Wechsel zwischen fester Reihenfolge und Ablaufsortierung wartet bei Bedarf, damit laufende Timer bei Gegnern außerhalb der Sicht erhalten bleiben.
+- Die Deckkraft der Ablaufanimation lässt sich unter DoT-Anordnung von 0–100% einstellen (Vorgabe: 58%). Änderungen außerhalb des Kampfes mit Übernehmen und UI neu laden aktivieren. Danke an Myia für den Vorschlag.
+- Neue Checkbox Fenster ausblenden, wenn nicht im Kampf unter Kampfanzeige, standardmäßig aus. Die Übersicht erscheint beim Kampfbeginn wieder, sofern sie nicht manuell ausgeblendet wurde; Optionen bleiben erreichbar.
+
+1.7.7-beta1 – 20.10.2026 – BETA: Deckkraft der Ablaufanimation und Sichtbarkeit im Kampf
+- Die Deckkraft der Ablaufanimation lässt sich unter DoT-Anordnung von 0–100% einstellen. Die bisherigen 58% bleiben voreingestellt. Danke an Myia für den Vorschlag.
+- Eine geänderte Deckkraft außerhalb des Kampfes mit Übernehmen und UI neu laden aktivieren. Sie betrifft den dunklen Schleier auf Symbolen; Matrix-Zahlen und DoT-Balken behalten ihre Darstellung.
+- Neue Checkbox Fenster ausblenden, wenn nicht im Kampf unter Kampfanzeige, standardmäßig aus. Die gesamte Gegnerübersicht erscheint beim eigenen Kampfbeginn wieder; manuelles Ausblenden hat weiterhin Vorrang. Optionen und andere Fenster bleiben erreichbar.
+- Das gewünschte Leuchten bei Ablauf ist in dieser Beta noch nicht enthalten.
+
+1.7.6 – 20.10.2026 – RELEASE: Rahmenlose Anzeige und deutlichere Zielmarkierung
+- Der eingeblendete Fensterkopf bleibt vollständig deckend, wenn die Transparenz der Gegnerübersicht erhöht wird.
+- Zusatzsymbole aktivieren und Rahmen ausblenden stehen in allen vier Ansichten zur Verfügung. Ohne Zusatzeffekte und den separaten unterstützenden Fluch wird die Anzeige schmaler; Haupt-DoTs, Raidmarker und Execute-Hinweise bleiben sichtbar.
+- Rahmen ausblenden entfernt Hintergrund, Außenrahmen und Zeilenumrandungen bei kleineren Außenabständen. Eine grüne Klammer links kennzeichnet in jeder rahmenlosen Ansicht dein ausgewähltes Ziel.
+- In der Lebensbalkenansicht verändert der Zeilenhöhenregler jetzt neben dem Abstand auch die sichtbare Balkenhöhe. Schrift und Symbole behalten ihre Größe; Mindestmaße sichern die Lesbarkeit. Bei 100% bleibt die vertraute Anordnung erhalten.
+- Zusatzsymbole sind anfangs eingeschaltet und Rahmen sichtbar. Der Fensterkopf bleibt separat schaltbar.
+
+1.7.6-beta1 – 20.10.2026 – BETA: Rahmen und Zusatzsymbole schaltbar
+- Der eingeblendete Fensterkopf bleibt vollständig deckend, wenn die Transparenz der Gegnerübersicht erhöht wird.
+- Neue gemeinsame Optionen für Standard, Matrix, DoT-Balken und Lebensbalken: Zusatzsymbole aktivieren (standardmäßig an) und Rahmen ausblenden (standardmäßig aus).
+- Ohne Zusatzsymbole entfallen zusätzliche Effekte und der separate unterstützende Fluch samt Platzbedarf. Haupt-DoTs, Raidmarker und Execute-Hinweise bleiben sichtbar.
+- Rahmen ausblenden entfernt Fensterhintergrund, Außenrahmen und Zeilenumrandungen bei kleineren Außenabständen. Der Fensterkopf bleibt separat schaltbar.
+- Bei Standard mit Nach Ablauf kann das Umschalten der Zusatzsymbole warten, bis ein Gegner außerhalb des Sichtfelds wieder aktualisierbar ist oder der Kampf endet. Seine laufenden Timer bleiben erhalten.
+
+1.7.5 – 19.10.2026 – RELEASE: Größe der Gegnerübersicht flexibler einstellen
+- Die Gegnerübersicht lässt sich jetzt bis auf 40% verkleinern. Die Gesamtskalierung reicht von 40–130% in 5%-Schritten.
+- Breite und Zeilenhöhe lassen sich für Standard, Matrix, DoT-Balken und Lebensbalken unabhängig einstellen. Symbole und Schrift behalten ihre Proportionen; der Platzbedarf des Inhalts begrenzt die Verkleinerung.
+- Jede Ansicht merkt sich ihre Maße und kann auf 100% zurückgesetzt werden. Die gespeicherte Gesamtskalierung bleibt erhalten; neue Einstellungen beginnen bei 100%.
+
+1.7.4 – 18.10.2026 – RELEASE: Sortierung leichter auswählen
+- Die DoT-Anordnung zeigt unter Sortierung jetzt zwei direkte Auswahlen: Feste Reihenfolge / Nach Ablauf. Die aktive Auswahl bleibt sichtbar; Kurzinfos erklären beide Möglichkeiten.
+- Lebensbalken berücksichtigt jetzt dieselbe Sortierwahl wie Standard: Effekte an festen Plätzen oder zuerst die Effekte mit der kürzesten Restlaufzeit anzeigen.
+- Matrix und DoT-Balken behalten deine festgelegte Effektreihenfolge. Deine gespeicherte Sortierwahl bleibt erhalten.
+
+1.7.3 – 18.10.2026 – RELEASE: Lebensbalkenansicht
+- Neue vierte Ansicht auf Vorschlag von thermanshs: Porträt und Raidmarker links, großer Lebensbalken mit Gegnername, aktuellen/maximalen HP und Prozenten in der Mitte sowie Effektsymbole mit Restzeiten rechts.
+- Vier direkte Auswahlen: Standard / Matrix / DoT-Balken / Lebensbalken. Die bisherige Balkenansicht heißt jetzt DoT-Balken.
+- Längere Gegnernamen erhalten mehr Platz im Lebensbalken, ohne Fensterbreite oder Zeilenhöhe zu vergrößern.
+- Haupteffekte folgen der gewählten Priorität. Vier Zusatzeffekte, eigener unterstützender Fluch und Execute-Schwerter bleiben verfügbar. Mindestens einen Hauptplatz in der DoT-Anordnung wählen.
+
+1.7.3-beta1 – 18.10.2026 – BETA: Lebensbalkenansicht
+- Neue vierte Ansicht auf Vorschlag von thermanshs: Porträt und Raidmarker links, großer Lebensbalken mit Gegnername, aktuellen/maximalen HP und Prozenten sowie Effektsymbole mit Restzeiten rechts.
+- Standard / Matrix / DoT-Balken / Lebensbalken direkt auswählen. Die bisherige Balkenansicht heißt zur Unterscheidung DoT-Balken.
+- Haupteffekte folgen der gewählten Priorität. Vier Zusatzeffekte, eigener unterstützender Fluch und Execute-Schwerter bleiben sichtbar. Mindestens einen Hauptplatz in der DoT-Anordnung auswählen.
+
+1.7.2 – 18.10.2026 – RELEASE: Balkenansicht und Hauptfenster-Transparenz
+- Neue Balkenansicht auf Vorschlag von BenTheMan: DoT-Balken je Gegner in der gewählten Prioritätsreihenfolge, mit Restzeiten. Standard / Matrix / Balken direkt auswählen; ausgeblendete Zaubernamen sparen Breite.
+- HP-Prozente stehen in der Balkenansicht im Lebensbalken: ab 70% links, darunter rechts. Standard und Matrix behalten ihre gespeicherte Lebensanzeige. Vier Zusatzsymbole am Porträt, unterstützender Fluch und Raidmarker bleiben sichtbar.
+- Neuer Transparenzregler von 0–80% ausschließlich für das Hauptfenster. Kürzerer Fensterkopf mit Autorenname bei unveränderten Fenstermaßen. Handlungsvorschläge bleiben optional, experimentell und bei Neuinstallation ausgeschaltet. Sie rechnen mit unbegrenzter Gegnerlebensdauer; ein Zauberabschluss bestätigt keinen Treffer.
+
+1.7.2-beta3 – 18.10.2026 – BETA: kürzerer Fensterkopf
+- „created“ aus dem Fensterkopf entfernt, damit bei ausgeblendeten Zaubernamen mehr Platz bleibt. Version, Autorenname und Fenstermaße bleiben erhalten.
+
+1.7.2-beta2 – 18.10.2026 – BETA: Lebensbalken wiederherstellen; Transparenz nur im Hauptfenster
+- Fehlende Lebensbalken in der Balkenansicht bei zuvor gespeicherter Prozentanzeige korrigiert. Balken zeigt nun stets Lebensbalken mit HP-Prozenten; Standard und Matrix behalten ihre eigene Auswahl.
+- Transparenz auf das Hauptfenster begrenzt. Einstellungen, Auswertung, Archiv und Diagnose bleiben deckend.
+
+1.7.2-beta1 – 18.10.2026 – BETA: Balkenansicht und Fenstertransparenz
+- Neue Balkenansicht auf Vorschlag von BenTheMan: bis zu acht gewählte Haupteffekte je Gegner in Prioritätsreihenfolge, mit Restlaufbalken und Zeiten. Drei direkte Ansichtsschalter; optionale Zaubernamen sparen Breite.
+- Vier Zusatzeffekte am Porträt, eigener unterstützender Fluch und Raidmarker. HP-Prozente im Lebensbalken stehen ab 70% links, darunter rechts.
+- Gemeinsamer Transparenzregler von 0–80% für Cursive-Fenster; die Auswahl wird gespeichert. Erste Beta der neuen Ansicht.
+
+1.7.1 – 17.10.2026 – WARTUNG: Client 1.60.1 (70450)
+- Clientangaben auf WoW Forever 1.60.1 (70450), Release x64, Build vom 15.10.2026 aktualisiert. Die im Spiel beobachteten Funktionen liefen auf dem neuen Client; keine Funktionsänderung.
+
+1.7.0 – 16.10.2026 – RELEASE: kompakte Matrix, verfeinerter Standard und korrigierter Fluchwächter
+- Neue Matrixansicht mit gemeinsamen Zauberspalten, Restzeiten je Gegner, kompakten Porträts, Lebensbalken und Execute-Schwertern. Bis zu acht Hauptfamilien aller neun Klassen, einschließlich Zermürben. Standard bleibt voreingestellt und wird durch kleinere Abstände schmaler.
+- Beide Ansichten zeigen vier Zusatzsymbole in zwei Zweierreihen. Fluchsymbol und Zeiten bleiben innerhalb des Zielrahmens; Ansichtswechsel bewahren gemerkte Gegner außerhalb der Sicht.
+- Fluchwächter korrigiert: Ein anderer unterstützender Fluch, auch Tollkühnheit, lässt die Erinnerung an den zugewiesenen Fluch wieder erscheinen. Handlungsvorschläge bleiben optional und experimentell; ein Zauberabschluss bestätigt keinen Treffer.
+
+1.7.0-beta6 – 16.10.2026 – BETA: veraltete Fluchwächter-Erinnerung beim Fluchwechsel verwerfen
+- Fluchwächter korrigiert: Nach Schwäche → Tollkühnheit erscheint die Erinnerung an Schwäche wieder. Die drei zuweisbaren Flüche bleiben unverändert; Omen der Pein und Verdammnis werden getrennt behandelt.
+- Fluchwechsel bleiben beim ursprünglich zugeordneten Gegner, auch nach einem Zielwechsel. Fehlgeschlagene oder nicht eindeutig zuordenbare Versuche ändern keine fremde Erinnerung; ein Zauberabschluss ist kein Trefferbeweis.
+
+1.7.0-beta5 – 16.10.2026 – BETA: innere Matrix-Rahmenkante freihalten
+- Überdeckung des goldenen Matrix-Zielrahmens durch Fluchsymbol und Zeitfläche behoben. Ohne Vorschläge etwas mehr Innenabstand; Standard und Matrix mit Vorschlägen behalten ihre Maße.
+
+1.7.0-beta4 – 16.10.2026 – BETA: vier Zusätze und stabile Matrix-Ausrichtung
+- Zusatzbereich beider Ansichten auf vier Symbole in zwei Zweierreihen verkleinert. Zeiten stehen in Standard darunter, in Matrix daneben; der Porträtfluch bleibt getrennt.
+- Vorübergehend falsche Porträtgrößen, Trennlinien und Fluchpositionen nach Aura-Aktualisierungen in Matrix korrigiert.
+- Fluch und Zusatzsymbole erhalten oben und unten Innenabstand. Bei verzögertem Ansichtswechsel bleiben vorhandene Anzeigen außer Sicht erhalten.
+
+1.7.0-beta3 – 16.10.2026 – BETA: kompaktere Matrixzeilen
+- Matrix ohne Vorschläge deutlich flacher: kleinere Überschrift und Porträts, engere Zeitspalten. Vorschläge behalten ihren bisherigen Platz.
+- Lebenspunkte im Balken und Execute-Schwerter am Porträt. Die Prozentanzeige behält beide Lebenswerte; Standard wird beim Rückwechsel vollständig wiederhergestellt.
+
+1.7.0-beta2 – 16.10.2026 – BETA: sichere Einrichtung von Standard und Matrix
+- Beta1-Rückschritt mit überhohen Zeilen, großen Fluchsymbolen und wirkungsloser Matrixauswahl korrigiert.
+- Ansichtswechsel warten bei erhaltenen Auren außerhalb der Sicht; die Auswahl zeigt die aktive oder vorgemerkte Ansicht. Darstellungsfehler vermischen Standard und Matrix nicht mehr.
+
+1.7.0-beta1 – 16.10.2026 – BETA: Matrixansicht und schmalerer Standard
+- Standard und Matrix unter Kampfanzeige auswählbar. Matrix zeigt bis zu acht feste Hauptspalten mit gemeinsamen Symbolköpfen und Restzeiten je Gegner; acht Zusatzeffekte stehen daneben.
+- Standard wird durch geringere, gleichmäßige Abstände zwischen Porträt, Fluch und Trennlinie schmaler. Zermürben als Auswahl ergänzt, sodass alle fünf Hexer-DoTs gemeinsam wählbar sind; Klassenkataloge aller neun Klassen bleiben verfügbar.
+- Nicht sofort mögliche Ansichtswechsel werden bei Gegnern außer Sicht vorgemerkt; erneuter Klick storniert den Wunsch. Erste Beta der Matrixansicht.
+
+1.6.2 – 16.10.2026 – RELEASE: überarbeitete, kompaktere Gegneranzeige
+- Kompakte Standardansicht mit Porträts, gleichmäßigen Zeilen, ausgerichteten Haupt-DoTs, Zeiten und Execute-Hinweis. Ein Fluchplatz am Porträt; acht Zusatzsymbole in zwei Viererreihen. Überflüssiger Seitenstreifen entfällt.
+- Bei nur einer Gegneransicht entfällt der Standard-Auswahlschalter. Kontakt & Rückmeldung liegt im Vordergrund. Fensterkopf bleibt ausblendbar; Handlungsvorschläge bleiben optional und experimentell.
+- Clientangabe auf WoW Forever 1.60.1 (70425), Release x64, Build vom 14.10.2026 aktualisiert. Bisherige Spielprüfungen erfolgten auf 70374.
+
+1.6.2-beta5 – 16.10.2026 – Zusatzsymbole bündig in zwei Viererreihen
+- Acht Zusatzsymbole in zwei Viererreihen bündig zu den Haupt-DoTs angeordnet; ein Fluchplatz bündig zum Porträt ersetzt die unnötige Reserve für zwei Flüche.
+- Ohne Vorschläge zehn Pixel weniger Höhe je Gegnerzeile bei gleicher Breite. Vorschläge behalten ihren Beschriftungsplatz.
+
+1.6.2-beta4 – 16.10.2026 – Aktuelle Porträtansicht wird Standard
+- Die aktuelle Porträtansicht heißt Standard; Kompakt und die bisherige Minimal-Auswahl entfallen. Gespeicherte Zielansichten wechseln auf Standard. FULL/minimal bleibt die unabhängige Auswahl für das Optionsfenster.
+- Überflüssigen grün/goldenen Seitenstreifen entfernt; Zielrahmen, Porträtring und Raidmarker bleiben erhalten.
+
+1.6.2-beta3 – 16.10.2026 – Rückmeldungsfenster im Vordergrund
+- Kontakt & Rückmeldung liegt über dem Optionsbuch. Verdeckte Schaltflächen reagieren nicht mehr auf Klicks durch den Dialog; Kopieren, Escape und Schließen bleiben nutzbar.
+
+1.6.2-beta2 – 16.10.2026 – Unterstützende Flüche rechts am Porträt
+- Unterstützende Flüche mit eigenen Zeiten rechts oben am Porträt angeordnet. Kompakt/Minimal wird mit dieser Option geringfügig breiter.
+- Jede Gegnerzeile unten zehn Pixel kürzer; Execute! rückt zur Unterkante der DoT-Zeiten hoch. Symbol- und Schriftgrößen bleiben erhalten.
+
+1.6.2-beta1 – 16.10.2026 – Kompaktere senkrechte Abstände
+- Obere und untere Zeilenränder verkleinert; Gegnerzeilen bleiben gleichmäßig angeordnet. Hauptsymbole, Schrift, Zeitbänder und Breite bleiben erhalten.
+- Bei einer Symbolreihe mit Porträtflüchen nur das Porträt verkleinert, damit beide Fluchzeiten in den Rahmen passen. Vorschläge und Execute folgen der gemeinsamen Ausrichtung.
+
+1.6.1 – 15.10.2026 – Execute-Hinweis und ausblendbarer Fensterkopf
+- Execute-Hinweis mit Schwertern unter der Lebensanzeige: Automatisch, unter 35%, unter 20% oder Aus. Automatisch berücksichtigt passende gelernte Fähigkeiten/Talente; die manuellen Schwellen wurden im Spiel bestätigt, die automatische Erkennung noch nicht.
+- Fensterkopf einschließlich Autorenzeile ausblendbar; danke an AbelBeja für den Vorschlag! Ohne Kopf bleibt das entsperrte Fenster am Hintergrund verschiebbar. Kontakt unter Hilfe & Info.
+- Gemeinsame DoT-Priorität, kompakte Zeilen und Todesmeldungen der Beta-Reihe übernommen. Vorschläge bleiben optional und experimentell; sie rechnen weiterhin mit unbegrenzter Gegnerlebensdauer.
+
+1.6.1-beta5 – 15.10.2026 – Execute-Hinweis und ausblendbarer Fensterkopf
+- Execute-Hinweis ergänzt: Automatisch (Vorgabe), unter 35%, unter 20% oder Aus. Automatisch berücksichtigt Dezimierung, Exitus, Hinrichten, Hammer des Zorns sowie Early Demise mit erlerntem Schattenwort: Tod. Feste Schwellen sind klassenunabhängig; der Hinweis zeigt keine unmittelbare Zauberbereitschaft.
+- Schwerter und Execute! nutzen den Platz unter der Lebensanzeige. Ohne aktuelle Gegnerdaten bleibt ein vorhandener Hinweis abgeblendet.
+- Fensterkopf unter Allgemein ausblendbar, auch im leeren Fenster. Verschieben bleibt am Hintergrund möglich; Urheber und kopierbarer CurseForge-Kontakt stehen unter Hilfe & Info.
+
+1.6.1-beta4 – 15.10.2026 – Todesmeldungen für gemerkte Gegner
+- Passende Todesmeldungen entfernen gemerkte Gegner samt Effekten und Vorschlägen auch ohne aktuell erreichbares Ziel. Doppelte oder unbekannte Meldungen entfernen keine fremden Zeilen.
+- Lebende Gegner bleiben beim Wegdrehen erhalten. Eine lückenlose Erkennung jedes Todes außerhalb der Sicht ist weiterhin nicht zugesichert.
+- /cftrace zeigt die neue Todesbereinigung; eine separate Probe ist nicht mehr erforderlich.
+
+1.6.1-beta3 – 15.10.2026 – Kompakte, gleichmäßige Zeilen
+- Gleichmäßige Ränder ober- und unterhalb der Haupt-DoTs verkürzen Gegnerzeilen. Zusatzsymbole wandern in zwei kleine Reihen rechts; freie Breite wird zuerst genutzt.
+- Porträtflüche und eigene Zeitanzeigen bleiben erhalten. Auftauchende oder ablaufende Effekte verändern die Fenstergröße nicht.
+
+1.6.1-beta2 – 15.10.2026 – Gemeinsame DoT-Reihenfolge und ausgerichtete Zeilen
+- Die DoT-Anordnung bestimmt nun zugleich die Vorschlagspriorität; beide verwenden eine gemeinsame gespeicherte Reihenfolge.
+- Porträt, Hauptsymbole und Vorschläge ausgerichtet; Zeiten darunter, Status und Aktionsnummern darüber.
+- Erstanwendungen heißen „Setzen“, laufende Versuche „Zaubert“. Während des Zaubers wird nicht schon seine spätere Erneuerung als „in 14s“ angezeigt.
+
+1.6.1-beta1 – 15.10.2026 – Erstanwendungen in der experimentellen Vorschau
+- Geschätzte Erstanwendungen in vollständig von Beginn an erfassten Kämpfen ergänzt. So kann fehlender Feuerbrand vor späteren Erneuerungen stehen; fällige höher priorisierte DoTs behalten Vorrang.
+- „~“ kennzeichnet die Annahme, keinen Nachweis einer fehlenden Aura. Bei unvollständigem Verlauf, etwa nach Neuladen im Kampf, bleibt die Anwendung unbekannt.
+- Laufende Zauber belegen ihre Zeit; Abbruch gibt den Vorschlag wieder frei. Automatische Treffer-/Fehlschlagerkennung fehlt weiterhin, manuelle Korrektur bleibt möglich.
+
+1.6.0 – 15.10.2026 – Anzeige-Release mit optionaler experimenteller Vorschau
+- Lebensbalken oder Prozent, bis zu acht feste Effektplätze, Porträtflüche und FULL/minimal-Optionen gemeinsam veröffentlicht. Lebensbalken sind auf Anregung von thermanshs voreingestellt; gespeicherte Einstellungen und Archiv bleiben erhalten.
+- Wegdrehen erhält Gegnerzeile und letzte HP-Anzeige. Passende verfügbare Ziele können Auren weiter aktualisieren; bestätigter Tod entfernt Zeile und Vorschläge. Ohne passende Zuordnung kann das Aura-Raster dennoch leer werden; unbeobachtete Tode sind nicht sofort erkennbar.
+- Optionale experimentelle Hexer-Vorschau mit zwei globalen Aktionen und bis zu zwei je Zeile, nach Priorität, Ablaufzeit und Zauberdauer. Gegnerleben wird unbegrenzt angenommen; keine gemessene Schadensoptimierung oder automatische Trefferbestätigung. Beobachtete Fehlschläge per Rechtsklick korrigierbar; unbekannte Erstanwendungen bleiben offen.
+- Die letzten fünf anonymisierten Kampfberichte über /cftrace 1 bis 5 abrufbar; laufende Aufzeichnungen bleiben beim erneuten Einschalten erhalten.
+
+1.6.0-experimental9 – 15.10.2026 – Verlässlicher Aufzeichnungsverlauf (EXPERIMENTAL)
+- Die fünf letzten Berichte mit Nummer, Startzeit und Dauer speichern; Auswahl über /cftrace 1 bis 5. /cftrace ohne Zahl zeigt den laufenden oder letzten Bericht.
+- Erneutes Einschalten setzt laufende Aufzeichnungen nicht zurück; Mitschnitte ab Kampfmitte werden gekennzeichnet. Die bekannte kurze Aura-Rasterlücke bleibt offen.
+
+1.6.0-experimental8 – 14.10.2026 – Letzte Todesprüfung und geprüfte Ersatzzuordnung (EXPERIMENTAL)
+- Letzte lesbare Todeshinweise beim Verlust eines Gegners berücksichtigen; nur eindeutig passende Gegner werden entfernt.
+- Vor dem Leeren der Aura-Anzeige nach einem passenden Ersatzziel suchen, nun auch beim Begleiter und Ziel des Ziels. Keine Daten fremder Gegner übernehmen.
+- Ohne passende Zuordnung kann das Raster weiterhin leer werden. Zeile und letzte HP bleiben erhalten und beweisen weder Leben noch fortbestehende Auren.
+
+1.6.0-experimental7 – 14.10.2026 – Bewährte Gegneranzeige wiederherstellen (EXPERIMENTAL)
+- Bewährte Anzeige beim Wegdrehen wiederhergestellt: letzte HP, Lebensbalken und vorhandene DoT-Zähler bleiben stehen; der zusätzliche Hinweis „Außer Sicht“ entfällt. Gemerkte HP sind keine frischen Messwerte.
+- Aura-Aktualisierung über das weiterhin angewählte passende Ziel wiederhergestellt; Zielwechsel übertragen keine fremden Daten.
+
+1.6.0-experimental6 – 14.10.2026 – Diagnose der Zauberzuordnung (EXPERIMENTAL)
+- /cftrace um anonymisierte Zauberentscheidungen ergänzt, um unpassende Empfehlungen trotz frisch sichtbarer DoTs einzugrenzen. Der Bericht bestätigt keine Treffer.
+- Reine Diagnoseergänzung; die beobachtete Verderbnis-Abweichung wird damit noch nicht behoben.
+
+1.6.0-experimental5 – 14.10.2026 – Frühe Aura-Aktualisierung und Ereignisaufzeichnung (EXPERIMENTAL)
+- Vorhandene DoT-Zähler bleiben auch erhalten, wenn eine Aura-Aktualisierung kurz vor dem Entfernen der Namensplakette eintrifft.
+- Automatische begrenzte Ereignisaufzeichnung ergänzt: /cftrace zeigt den letzten Kampf zum Kopieren; on/off/clear steuern die Aufzeichnung. Namen, HP und Aura-Inhalte werden nicht aufgezeichnet.
+
+1.6.0-experimental4 – 14.10.2026 – Verhalten beim Wegdrehen wiederhergestellt (EXPERIMENTAL)
+- Vorhandene DoT-Anzeigen beim Wegdrehen wieder erhalten, auch bei ausgeschalteten Vorschlägen. Gemerkte Schätzungen bleiben mit „~“ in der globalen Prioritätsfolge.
+- Rückkehr, Tod und wiederverwendete Namensplaketten sicherer unterscheiden. Ein fremder Gegner ersetzt keine gemerkte Zuordnung; unbeobachtete Zeit erzeugt keine zusätzlichen Auswertungsticks.
+
+1.6.0-experimental3 – 14.10.2026 – Lua-Fehler beim unbekannten Gegnerzustand (EXPERIMENTAL)
+- Lua-Fehler beim Anzeigen des unbekannten Gegnerzustands behoben; Statushinweis in allen drei Ansichten korrekt ausgerichtet.
+
+1.6.0-experimental2 – 14.10.2026 – Gegnerzustände und Vorschläge korrigiert (EXPERIMENTAL)
+- Bei nicht erreichbaren Gegnern veraltete HP und Aura-Zähler durch einen unbekannten Zustand ersetzen; fehlende Sichtbarkeit allein zählt nicht als Tod. Bestätigte Tode entfernen Zeile und Vorschläge.
+- Ein-/Ausschalten der Vorschau erhält den Zauberverlauf. Unbekannte DoT-Zeiten erzeugen keine sofortige Erstanwendung. Grün 1 bedeutet jetzt, Gold 1 später, Blau 2 danach.
+- „Zauber ?“ bleibt nach unbestätigtem Abschluss für eine manuelle Fehlschlagkorrektur per Rechtsklick erreichbar. Keine automatische Treffererkennung.
+
+1.6.0-experimental1 – 13.10.2026 – Geschätzte Handlungsvorschläge (EXPERIMENTAL)
+- Optionale experimentelle Hexer-Vorschau für Omen, Verderbnis und Feuerbrand: zwei Vorschläge je Gegner, global nächste und folgende Aktion. Fällige Prioritäten gelten über alle Gegner; Zauberzeit und globale Abklingzeit werden berücksichtigt.
+- „?“ bedeutet unbekannte Anwendung, „~“ eine Schätzung. Zauberabschlüsse bestätigen keine Treffer; Mauszeiger-/Fokusmakros werden nicht unterstützt. Keine Restlebenszeit- oder Schadensoptimierung.
+- /cfexp öffnet Einstellungen für Priorität, Effekte und Zeiten; on/off/reset sowie miss immolate|agony|corruption steuern die Vorschau. Alt-Rechtsklick korrigiert einen beobachteten Fehlschlag.
+
+1.6.0-beta2 – 13.10.2026 – Platz im Grimoire (Testversion)
+- Rechte Kampfanzeige-Seite im Grimoire aufgeräumt: DoT-Anordnung und Autoreninschrift überlagern sich nicht mehr.
+
+1.6.0-beta1 – 13.10.2026 – Flexible DoT-Anordnung (Testversion)
+- Ablaufsortierung oder bis zu acht feste DoT-Plätze wählen, speichern und über /cf dots anordnen. Vier Plätze je Reihe; weitere eingeschaltete Effekte bleiben kleiner sichtbar.
+- Eigene unterstützende Flüche in Kompakt/Minimal optional unten am Porträt, für Hexer voreingeschaltet. Freie Hauptplätze sind keine Erneuerungsempfehlung.
+- Lebensbalken bleiben auf Anregung von thermanshs voreingestellt. Gespeicherte Auswahl und Klassen-/Gruppenfilter bleiben erhalten.
+
+1.5.0-beta3 – 13.10.2026 – Lebensbalken als Voreinstellung
+- Der von thermanshs angeregte Lebensbalken wird zur Voreinstellung für neue Installationen und bislang nicht gesetzte Lebensanzeigen. Gespeicherte Prozentanzeige bleibt erhalten; jederzeit umschaltbar.
+
+1.5.0-beta2 – 13.10.2026 – Korrekturen aus dem Spieltest
+- Lua-Fehler beim Wechsel zwischen Lebensbalken und Prozent im Kampf korrigiert.
+- Weiße Schaltflächen nach FULL → minimal behoben; Farben werden sofort wiederhergestellt. Der Lebensbalken auf Wunsch von thermanshs bleibt enthalten.
+
+1.5.0-beta1 – 13.10.2026 – Lebensanzeige auf Community-Wunsch
+- Auf Wunsch von thermanshs Lebensbalken als Alternative zur HP-Prozentanzeige ergänzt. Unter Kampfanzeige umschaltbar, sofort wirksam und gespeichert; Prozent bleibt zunächst voreingestellt.
+- In allen drei Gegneransichten und beiden Optionsdesigns verfügbar, mit Grün/Gelb/Rot. Fehlende Lebensdaten zeigen einen unbekannten Zustand.
+
+1.4.7-beta1 – 12.10.2026 – Testfassung zur Absicherung
+- Verarbeitung geschützter oder unlesbarer Gegner- und Kampfdaten abgesichert. Unbekannte Überlebenszeit wird nicht als gemessener Prozentwert ausgegeben.
+- Veraltete Marker- und persönliche Flucherinnerungen regelmäßig bereinigt; aktuelle Ziele und gespeicherte Kämpfe bleiben erhalten. Zielwechsel verwerfen mehrdeutige Erinnerungen.
+
+1.4.6 – 12.10.2026 – Wartungsrelease
+- Falsche 0-%-Abdeckung bei unbestätigten Zauberzielen behoben; Schadenszuordnung früh angelegter Kampfsitzungen verbessert.
+- Die Wartungskorrekturen aus 1.4.5 übernommen. Gesperrte Aura-Zeiten, mehrdeutige Ziele und Beobachtungslücken bleiben als unbekannte Werte erkennbar; vorhandene Archive bleiben erhalten.
+
+1.4.6-beta1 – 12.10.2026 – Nachbesserung für den Spieltest
+- Falsche 0-%-Abdeckung und vollständige Lücken bei unbestätigten Zauberzielen behoben, auch in vorhandenen 1.4.5-Aufzeichnungen.
+- Schadenssitzungen berücksichtigen, die kurz vor dem Kampfstart angelegt wurden. /cf diagnose erklärt fehlende Sitzungszuordnungen genauer; gespeicherte Zähler werden nicht umgeschrieben.
+
+1.4.5 – 12.10.2026 – Wartungsrelease
+- Schaden zuverlässiger dem eigenen Kampf zuordnen. Unbekannter Schaden bleibt „—“, ein Teilstand trägt „≥“; mehrdeutige Zauberziele werden nicht dem angewählten Gegner zugeschrieben.
+- Abdeckung und Tickmodell pausieren bei unbeobachtbaren Gegnern; Folgebosse erhalten getrennte Aufzeichnungen. Bildpausen zählen zur Kampfdauer, aber nicht als beobachtete Abdeckung.
+- Flucherinnerung unterscheidet „FLUCH UNBESTÄTIGT“ und „ERINNERUNG ABGELAUFEN“. Gesperrte Abfragen behaupten keinen fehlenden Fluch. Korrekturen gelten für neue Aufzeichnungen; alte Werte bleiben erhalten.
+
+1.4.4 – 11.10.2026 – Release
+- Optionen in Allgemein, Kampfanzeige, Auswertung und Hilfe & Info gegliedert, mit einheitlichen Bedienelementen und Anpassung an die Bildschirmgröße.
+- FULL als voreingestelltes Optionsdesign: Gul’dans düsteres Grimoire mit Vorwärts-/Rückwärtsblättern. minimal bietet dieselben Einstellungen schlicht; die Auswahl bleibt gespeichert.
+- Klassenfilter für alle neun Klassen, bis zu fünf auswählbare und sortierbare Raben-Karten sowie Charakterarchiv. Gesperrte Aura-Werte bleiben als „Client-Sperre / Unbestätigt“ sichtbar.
+
+1.4.4-beta – 11.10.2026
+- Gespiegelte Titel und Signaturen beim Umblättern korrigiert; beide Blattseiten bleiben deckend. Signatur erscheint nur auf der bedruckten rechten Seite.
+- Gul’dans Gesicht, Hände und Rüstung dunkler gestaltet; Fel-Glut bleibt sichtbar.
+
+1.4.3-beta – 11.10.2026
+- Autorensignatur bewegt sich beim Vorwärtsblättern mit dem Blatt und wird beim Rückwärtsblättern korrekt verdeckt.
+
+1.4.2-beta – 11.10.2026
+- Abgeschnittene FULL-Grafik durch vollständige Außenkontur ersetzt, Pergament nachgedunkelt und Cursive/Forever in die Buchüberschriften eingebunden.
+- Verzierte Buchschließe für FULL/minimal und besser platzierte Signatur ergänzt; Umblättern an die neue Grafik angepasst.
+
+1.4.1-beta – 11.10.2026
+- Lua-Fehler beim Aufbau der Buchsignatur und den daraus entstehenden Folgefehler beim erneuten Öffnen der Optionen behoben.
+
+1.4.0-beta – 11.10.2026
+- Erste spielbare FULL-Optionsansicht mit Gul’dans Grimoire, vier Kapiteln, Reglern auf den Buchseiten und animiertem Vorwärts-/Rückwärtsblättern. minimal bleibt wählbar.
+- Feste Autorensignatur ergänzt; Designwahl wird unabhängig von der Gegneransicht gespeichert. Direktaufruf über /cf grimoire, /cf full und /cf minimal.
+
+1.3.3-beta – 11.10.2026
+- Häkchenbeschriftungen direkt am Schalter ausgerichtet und Speicherhinweis aus der Eckverzierung verschoben. Reiterränder verlieren ihre Hervorhebung wieder korrekt.
+
+1.3.2-beta – 11.10.2026
+- Vier Optionsreiter mit einheitlichen Knöpfen, Spalten und Reglern eingeführt. Niedrigeres Fenster passt sich Bildschirm und UI-Skalierung an.
+- Schließknöpfe im Braun-/Goldthema; Sprachwechsel aktualisiert auch verdeckte Seiten. Gegnerübersicht und Performancefenster behalten ihre Größe.
+
+1.3.1-beta – 11.10.2026
+- Fehlende Pfeilzeichen der Kartensortierung durch lesbare „Auf“/„Ab“-Schalter ersetzt; kleine Schalter bleiben frei von Ziersymbolen.
+
+1.3.0-beta – 11.10.2026
+- Zauberfilter für alle neun Klassen mit getrennten Einstellungen für Solo, Gruppe und Raid. Bekannte Ränge aus dem Zauberbuch ergänzen; unbekannte Effekte bleiben sichtbar.
+- Bis zu fünf Raben-Karten je Charakter über /cf karten auswählen und sortieren; unbenutzte Karten optional ausblenden. Ausgeblendete Effekte werden weiter aufgezeichnet; alte Kämpfe bleiben erhalten.
+- Weihe ergänzt, Jägerfallen und Tiefe Wunden besser zugeordnet. Flächeneffektkarten zeigen Schadenssummen und Anteile, keine abgeleiteten Ziel- oder Tickwerte.
+
+1.2.13 – 11.10.2026
+- Bereinigte Diagnose und getrennte Kampfarchive der Beta als reguläre Ausgabe übernommen. Gesperrte Anwendungen bleiben „Client-Sperre“ und werden nicht als Fehlschläge gewertet.
+
+1.2.13-beta – 11.10.2026
+- Einzelne Diagnosen durch einen kompakten, kopierbaren Status unter /cf diagnose ersetzt; frühere Befehle bleiben Kurzwege. Unnötige Diagnoseausgaben im Chat entfernt.
+- Fluchvorschau vereinheitlicht und Versionshinweise im Spiel gekürzt. Gespeicherte Kämpfe bleiben erhalten; gesperrte Aura-Zeitdaten bleiben unverfügbar.
+
+1.2.12-beta – 11.10.2026
+- Wiederholte Fehler bei gesperrten Aura-Daten vermieden. Betroffene Karten, Zielfilter und Details zeigen „Client-Sperre“; Schaden und Zauberzahlen bleiben sichtbar.
+- Lesbare Anwendungen können weiterhin bestätigt werden. Leere oder gesperrte Antworten sind kein Fehlschlagnachweis; fehlende Aura-Zeiten werden nicht ersetzt.
+
+1.2.11-beta – 11.10.2026
+- Verschiebbaren und kopierbaren Aura-Diagnosebericht mit Clientangabe, Kampfzuordnung und genaueren Fehlergründen ergänzt. Neue Berichte bleiben im Archiv erhalten; /cf auradiag öffnet sie.
+- DoT-Detailhintergrund vollständig deckend, damit darunterliegende Karten nicht durchscheinen.
+
+1.2.10-beta – 10.10.2026
+- Leere Aura-Antworten zählen nicht mehr als „Nicht angewendet“. Unbestätigte Abdeckungs-, Erneuerungs- und Tickwerte zeigen „—“ statt falscher Nullwerte; Schaden und erfasste Zauber bleiben erhalten.
+- Zusätzliche Bestätigung lesbarer eigener Auren und Diagnose über /cf auradiag ergänzt. Ältere falsche Archivwerte werden nicht rückwirkend geändert.
+- Zusammenfassung und Erklärungen unter dem Raben auf eine passende dunkle Ziertafel gesetzt; in Kompakt ausgeblendet.
+
+1.2.9-beta – 10.10.2026
+- Eröffnungszauber und eindeutig zugeordnete Boss-Zauber beim Übergang in den Kampf erhalten. Abschlüsse zählen als Versuche; unsichere Anwendungen bleiben unbestätigt.
+- Unbestätigte Abdeckungs-, Erneuerungs- und Tickwerte als „—“ anzeigen. Der damalige Weg „Nicht angewendet“ wird in 1.2.10-beta weiter korrigiert.
+- Optionen beim Öffnen der Auswertung schließen; tote ausgewählte Gegner außerhalb des Kampfes nicht erneut als 0-HP-Zeile anlegen. Bestehende Archive bleiben unverändert.
+
+1.2.8 – Release – 07.10.2026
+- Performance-Monitor mit Effektkarten, erfasstem Schaden, Mehrziel-Abdeckung, DoT-Details und Raven Archive für bis zu 30 Kämpfe je Charakter veröffentlicht.
+- Tickverluste für Omen der Pein, Feuerbrand und Verderbnis bleiben berechnete Schätzungen, getrennt vom gemessenen Schaden. Vorhandene Beta-Aufzeichnungen bleiben verfügbar.
+
+1.2.8-beta - 07.10.2026
+- Effektkarten öffnen DoT-Details mit Zielfilter, Abdeckung, Lücken und Anwendungen/Erneuerungen. Neue Kämpfe speichern begrenzte Details; ältere behalten ihre Übersicht.
+- Geschätzte Tickverluste und früh überschriebene Anwendungen für Pein, Feuerbrand und Verderbnis ergänzt. Das Modell berücksichtigt Lücken und endet bei toten/unverfügbaren Zielen; es misst keine Schadensticks und schätzt keinen verlorenen Schaden.
+- Kürzere Laufzeiten niedriger Verderbnis-Ränge korrigiert. Unbestätigte Anwendungen erhalten keine unbelegten Tickwerte; Teilaufzeichnungen werden gekennzeichnet.
+
+1.2.7-beta - Eigene Skalierung für das Performancefenster ergänzt: 50–120 % in 5-%-Schritten, Standard 100 %. Der laufende Tracker behält seine separate Skalierung.
+- Größe und Position des Performancefensters je Charakter speichern; große und kompakte Ansicht teilen diese Einstellungen. Größenregler, Zentrieren und Rücksetzen unter Auswertung verfügbar.
+- Clientangabe auf WoW Forever 1.60.1 (70245), Beta x64 aktualisiert.
+
+1.2.6-beta - 07.10.2026
+- Neue dunkle Zierplakette für Version, Autor und Testclient in großer und kompakter Performanceansicht.
+- Archivüberschrift und Kampfanzahl mittig untereinander angeordnet; Kampfliste mit mehr Abstand zum Rahmen.
+
+1.2.5-beta - 07.10.2026
+- Abgeschnittenen rechten Rabenflügel vervollständigt. Version, Autor und Testclient auf einer dunklen Informationsfläche statt über Federn und Ketten angeordnet.
+
+1.2.4-beta - 06.10.2026
+- Vollständigen Raben in der Kompaktansicht ohne seitlichen/unteren Beschnitt zeigen. Rechteckigen Hintergrund des Archivschalters entfernt.
+- Clientangabe auf WoW Forever 1.60.1 (70235), Beta x64, Build vom 05.10.2026 aktualisiert.
+
+1.2.3-beta - 06.10.2026
+- Fehlenden linken Flügel ergänzt. Originalen Archiv-Doppelpfeil und rotes Schließ-X wiederhergestellt, mit passenden Klickflächen.
+- Kompaktumschalter, Archiv und Schließen bleiben getrennt bedienbar; Archivschalter in Kompakt ausgeblendet.
+
+1.2.2-beta - 06.10.2026
+- Fest eingezeichnete Beispielwerte aus Karten und Kampfüberschrift entfernt; echte Daten in getrennten Beschriftungs- und Wertspalten angeordnet.
+- Archivgrafik und Schaltflächen bereinigt; Kompaktansicht zeigt die Kampfangaben unterhalb des Logos.
+
+1.2.1-beta – 06.10.2026
+- Genau einen Archivschalter mit deckungsgleicher Klickfläche zeigen. Dekorative Ebenen blockieren keine Eingaben mehr; unbeabsichtigt transparente Grafikbereiche repariert.
+- Archivschalter in Kompakt deaktiviert; gespeicherter Archivzustand beim Aufklappen wiederhergestellt. Versionsanzeige ergänzt.
+
+1.2.0-beta – 06.10.2026
+- Performancefenster auf das Rabenmotiv mit fünf verzierten Effektkarten umgestellt. Eigenständig ein-/ausklappbares Raven Archive und Kompaktansicht ergänzt; Zustände je Charakter gespeichert.
+
+1.1.8-beta – 06.10.2026
+- Ausfahrbares Raven Archive mit Kampfanzahl und gespeichertem Offen/Geschlossen-Zustand ergänzt; beim ersten Öffnen offen.
+- Eigene Kopfplatte für den gewählten Kampf und schmalere zentrierte Hauptfläche.
+
+1.1.7-beta – 06.10.2026
+- Schadensauswertung genauer einzelnen Kampfsitzungen zuordnen; verfügbare gespeicherte und laufende Werte als Ersatz nutzen. /cf perfdiag zeigt die Sitzungszuordnung.
+
+1.1.6-beta – 06.10.2026
+- Laufende Schadenswerte als Ersatz für fehlende Abschlussdaten speichern; Gesamtschaden und Diagnose erweitern.
+- Lua-Fehler an den Löschhinweisen der Kampfhistorie behoben.
+
+1.1.5-beta – 06.10.2026
+- Sortierung nach Prioritätsmarker im Kampf stabilisiert; bereits bekannte und selbst gesetzte Marker bleiben berücksichtigt.
+
+1.1.4-beta – 06.10.2026
+- Raidmarker auf 20 Pixel verkleinert; Abstand zum Gegnernamen angepasst.
+
+1.1.3-beta – 06.10.2026
+- Verstümmelte Raidmarker korrigiert; alle acht Originalsymbole vollständig darstellen. Größe auf 28 Pixel und Position angepasst.
+
+1.1.2-beta – 06.10.2026
+- Raidmarker-Darstellung überarbeitet, auf 24 Pixel vergrößert und neu positioniert. Diagnose über /cf markerdiag ergänzt.
+
+1.1.1-beta – 06.10.2026
+- Eigene Schadens- und Zauberwerte besser zuordnen; fehlende Abschlussdaten erneut anfordern. Diagnose über /cf perfdiag ergänzt.
+- Mehrziel-Abdeckung auch für normale Kämpfe berücksichtigen; „Bossziele“ in „Ziele“ umbenannt. Vorhandene Historie bleibt lesbar.
+
+1.1.0-beta – 06.10.2026
+- Neues Performancefenster mit bis zu fünf Klassen-Effektkarten, Schaden, Mehrziel-Abdeckung, Lebendzeit und Toden. Bewusster Aufruf über Optionen oder /cf perf; kein automatisches Öffnen.
+- Archiv für 30 Kämpfe je Charakter, einschließlich Wipes. Mindestdauer 15–60 Sekunden, voreingestellt 45; einzelne oder alle Einträge löschbar.
+- Raidmarker an Gegnerzeilen und wählbarer Prioritätsmarker, voreingestellt Totenkopf. Passend markierte Gegner stehen oben. Erste Beta der Auswertung.
+
+1.0.1 – 04.10.2026
+- Oberfläche vollständig deutsch/englisch. Auto nutzt Deutsch auf deDE, sonst Englisch; manuelle Auswahl wird gespeichert und aktualisiert geöffnete Fenster sofort.
+
+1.0.0 – 04.10.2026
+- Erste stabile Ausgabe auf Basis von 0.5.7-beta. Violettes Totenkopf-Siegel in der Addon-Liste und einheitlicher Autorenhinweis „Leandarh Valinor“.
+- Teststand: WoW Forever 1.60.1 (70170), Beta x64, 04.10.2026.
+
+0.5.7-beta – 04.10.2026
+- Persönlichen Fluchwächter um geschätzte Timer nach eigenen Zauberabschlüssen ergänzt: Schwäche 120s, Sprachen 30s, Erschöpfung 12s. Ein anderer unterstützter Fluch ersetzt die bisherige Erinnerung am selben Ziel.
+- Warnungen vor Anwendung, vor Ablauf und nach Ablauf; verfügbare Aura-Daten bleiben nutzbar. Die Timer sind keine Trefferbestätigung.
+
+0.5.6-beta – 04.10.2026
+- Flucherkennung für abweichende Forever-Zauberkennungen und geschützte Aura-Daten verbessert; tatsächlich verwendete Fluchränge merken.
+- Fluchtest auch nach Kampfbeginn einschaltbar; Diagnose erweitert.
+
+0.5.5-beta – 04.10.2026
+- Fluchwächter-Erkennung bei abweichenden Zauberkennungen verbessert, um falsche „FLUCH FEHLT“-Meldungen bei sichtbarem Fluch zu vermeiden.
+
+0.5.4-beta – 04.10.2026
+- Lua-Ladefehler behoben, der das Starten des Addons verhinderte.
+
+0.5.3-beta – 04.10.2026
+- Fehlerhafte Aufnahme neutraler Gegner nach Wiederverwendung einer Namensplakette behoben. Echte Kampfgegner bleiben beim Wegdrehen gemerkt; tote Gegner werden vergessen.
+
+0.5.2-beta – 02.10.2026
+- Fehlende Beschriftungen der Ansichts- und Designauswahl repariert und anklickbar gemacht.
+- Volle Verzierung beruhigt: kleine Rand- und Trennlinienrunen entfernt; zentrale Ornamente bleiben erhalten.
+
+0.5.1-beta – 02.10.2026
+- Teststand auf WoW Forever 1.60.1 (70170), Beta x64, 02.10.2026 aktualisiert; keine Funktionsänderung.
+
+0.5.0-beta – 02.10.2026
+- Drei sofort umschaltbare Optionsdesigns: Dezent, Rabe (Vorgabe) und Voll. Rabenemblem, Runen, Wasserzeichen und Verzierungen gelten auch für Historie, Filter und Fluchwächter.
+
+0.4.9-beta – 24.09.2026
+- Sanft pulsierenden Hinweis bei ausgeschalteten Gegnernamensplaketten ergänzt, einschließlich aktuell belegter Taste oder Hinweis auf fehlende Belegung.
+
+0.4.8-beta – 23.09.2026
+- Kompakte gemeinsame Titelzeile mit Version und „by Leandarh Valinor“; separate rechte Zusatzanzeige entfernt.
+
+0.4.7-beta – 23.09.2026
+- Wärmere Braun-/Schwarz- und gedämpfte Goldtöne für Fenster, Minimap und Schaltflächen. Grün/Gelb/Rot bleiben Statusfarben; Version und Autor im Hauptfenster sichtbar.
+
+0.4.6-beta – 19.09.2026
+- Lua-Fehler bei geschützten Gegnernamen behoben; Namen bleiben in Standard und Kompakt darstellbar.
+
+0.4.5-beta – 19.09.2026
+- Lua-Fehler bei geschützten oder PvP-markierten NPCs behoben. Gegner ohne lesbare Identität werden nicht dauerhaft über ihre Kennung gemerkt.
+
+0.4.4-beta – 19.09.2026
+- Teststand WoW Forever 1.60.1 (69913), Beta x64, Build vom 17.09.2026 dokumentiert; Optionen und Diagnose zeigen den Referenzclient.
+
+0.4.3-beta – 19.09.2026
+- Banthers Owl-Corner um Katzenblutungen Krallenhieb und Zerfetzen samt mehreren Rängen erweitert.
+
+0.4.2-beta – 19.09.2026
+- Fluchzuweisung und „Keine Zuweisung“ schließen sich nun sofort sichtbar gegenseitig aus.
+
+0.4.1-beta – 19.09.2026
+- Lua-Fehler beim Öffnen der Raid-Fluchwächter-Einstellungen behoben.
+
+0.4.0-beta – 19.09.2026
+- Persönlichen Raid-Fluchwächter für Schwäche, Sprachen oder Erschöpfung auf aktiven Raidbossen ergänzt. Rot meldet fehlenden Fluch, Orange bevorstehenden Ablauf.
+- Vorwarnzeit 3–10 Sekunden, voreingestellt 5; eigener Optionsbereich und Zieltest über /cf cursetest. Noch keine automatische Zuweisung unter mehreren Hexenmeistern.
+
+0.3.12-beta – 19.09.2026
+- Drei Gegneransichten: Standard, Kompakt mit Porträt/gekürztem Namen und Minimal mit Porträt ohne Namen. Leben und DoTs bleiben sichtbar; Fensterbreite passt sich an.
+- Aktuelles Ziel über Goldrahmen und grüne Porträtmarkierung hervorheben.
+
+0.3.11-beta – 19.09.2026
+- Bestätigt tote Gegner sofort entfernen und nicht erneut aufnehmen. Verlust der Namensplakette durch Wegdrehen zählt weiterhin nicht als Tod.
+
+0.3.10-beta – 18.09.2026
+- Nicht in den Kampf verwickelte neutrale Gegner bleiben aus der Kampfanzeige.
+
+0.3.9-beta – 18.09.2026
+- Kampfgegner bleiben beim Wegdrehen oder bei Verdeckung sichtbar und werden bei Rückkehr derselben Zeile zugeordnet. Ein weiterhin angewähltes Ziel kann Leben und Auren weiter aktualisieren; gemerkte Zeilen enden mit dem Kampf.
+
+0.3.8-beta – 18.09.2026
+- Lua-Ladefehler aus 0.3.7 behoben; Lebensfarben und geschützte Prozentanzeige bleiben erhalten.
+
+0.3.7-beta – 18.09.2026
+- Prozentanzeige auch bei geschützten Lebenswerten abgesichert. Farben: unter 25% rot, 25–49% gelb, ab 50% grün.
+
+0.3.6-beta – 18.09.2026
+- HP-Prozentwerte und ihre Grün/Gelb/Rot-Farben im Kampf korrigiert.
+
+0.3.5-beta – 18.09.2026
+- Lebenspunkte und farbige Prozentanzeige in Gegnerzeilen ergänzt, zwischen Zielhinweis und DoTs.
+
+0.3.4-beta – 18.09.2026
+- Erkennung eigener Kampfgegner in Solo und Gruppe verbessert, insbesondere bei Mondfeuer/Insektenschwarm ohne verwertbare Bedrohungsanzeige.
+
+0.3.3-beta – 18.09.2026
+- „Banthers Owl-Corner“ mit Filtern für Mondfeuer und Insektenschwarm ergänzt, getrennt für Solo, Gruppe und Raid. Direktaufruf über /cf owl.
+
+0.3.2-beta – 18.09.2026
+- Sichtbares „\n“ im Bedienungstext durch einen echten Zeilenumbruch ersetzt.
+
+0.3.1-beta – 18.09.2026
+- Persönliche Autoren-/Gildenzeile im Optionsfenster ergänzt: Leandarh Valinor, „Try Again Forever“.
+
+0.3.0-beta – 18.09.2026
+- Schmaleren Hauptkopf, Fenstersperre und Skalierung von 70–130% ergänzt. Bis zu 40 Gegner mit zweiter Spalte ab Gegner 21.
+- Hexer-Zauberfilter für Solo, Gruppe und Raid über /cf filters; unbekannte neue Effekte bleiben sichtbar. Version und Autor in Optionen und Historie.
+
+0.2.12-beta – 18.09.2026
+- Versionshistorie deckend im Vordergrund über den Optionen anzeigen; verschiebbar und auf den Bildschirm begrenzt.
+
+0.2.11-beta – 18.09.2026
+- Bislang wirkungslose Ablaufsortierung korrigiert, sodass der als Nächstes auslaufende DoT links steht.
+
+0.2.10-beta – 18.09.2026
+- Ablaufsortierung nach neuen, erneuerten oder entfernten Auren zuverlässig neu anwenden.
+
+0.2.9-beta – 18.09.2026
+- Minimap-Abstand von 80–125 Pixeln einstellbar, voreingestellt 105. Änderungen wirken sofort und behalten die Winkelposition.
+
+0.2.8-beta – 18.09.2026
+- Ablaufsortierung weiter korrigiert; als Nächstes auslaufender DoT soll links stehen.
+
+0.2.7-beta – 18.09.2026
+- Dynamische DoT-Sortierung nach Ablaufzeit eingeführt: kürzeste Restzeit links, längere rechts.
+
+0.2.6-beta – 18.09.2026
+- Leeres Minimap-Symbol korrigiert; passende Zaubergrafik mit Ersatzanzeige laden.
+
+0.2.5-beta – 18.09.2026
+- Gegnername, Zielhinweis und DoTs in festen Spalten ohne Überlappung angeordnet; lange Namen begrenzt.
+
+0.2.4-beta – 18.09.2026
+- Version und Autorenzeile im Kopf getrennt angeordnet; Textüberlappungen verhindert.
+
+0.2.3-beta – 18.09.2026
+- Quadratische Maskierung des Minimap-Symbols korrigiert; Kreisform mit violettem Ring und rundem Hervorhebungseffekt.
+
+0.2.2-beta – 18.09.2026
+- Autorenhinweis „by Leandarh“ ergänzt.
+
+0.2.1-beta – 18.09.2026
+- Rundes Minimap-Symbol mit Ring. DoT-Symbole anfangs kräftig, mit von oben wachsendem Ablauf-Schleier statt dauerhaftem Grauschleier.
+
+0.2.0-beta – 18.09.2026
+- Düsteres Design, verschiebbarer Minimap-Schalter und Versionshistorie im Spiel ergänzt. Linksklick öffnet Optionen, Rechtsklick schaltet das Hauptfenster; Optionen schließen mit Escape oder X.
+- Restzeiten ab 5 Sekunden ganzzahlig, darunter mit Nachkommastelle. Optionen für Minimap-Symbol und Zielanzeige außerhalb des Kampfes.
+
+0.1.4-beta – 18.09.2026
+- Kontextanzeige: ausgewähltes Ziel außerhalb des Kampfes, alle Feinde im Raid, sonst eigene/Begleiter-Kampfgegner.
+
+0.1.3-beta – 18.09.2026
+- Echte Zielmarkierung und Unterstützung für Zielwechsel per Tab ergänzt.
+
+0.1.2-beta – 18.09.2026
+- Bedrohungsfilter hält fremde Kämpfe aus der Anzeige.
+
+0.1.1-beta – 18.09.2026
+- Dynamische Zuordnung von Gegnernamensplaketten und Diagnose ergänzt.
+
+0.1.0-beta – 18.09.2026
+- Erster Forever-Prototyp mit DoT-Anzeige und Restzeiten.
